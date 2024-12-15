@@ -9,6 +9,53 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 12.7 30.48)
+		(size 16.51 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8f18f3d-52ca-45dc-bba1-9034cc00c61a")
+		(property "Sheetname" "Movement"
+			(at 12.7 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Movement.kicad_sch"
+			(at 12.7 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 12.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Topographic Robot"
+				(path "/67e33313-0ce8-4ff5-8d50-46dc6ab8d472"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 40.64 16.51)
 		(size 19.05 8.89)
 		(fields_autoplaced yes)

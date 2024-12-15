@@ -394,6 +394,10 @@
     [
       "b10fdbae-69f4-4df8-8c58-54772b8ff5c0",
       "ESP32-WROOM-32"
+    ],
+    [
+      "a8f18f3d-52ca-45dc-bba1-9034cc00c61a",
+      "Movement"
     ]
   ],
   "text_variables": {}
