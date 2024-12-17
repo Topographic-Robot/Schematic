@@ -3565,7 +3565,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Movement:PCA9685")
 		(lib_id "Movement:PCA9685")
 		(at 43.18 96.52 0)
 		(unit 1)
@@ -4035,7 +4034,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Movement:PCA9685")
 		(lib_id "Movement:PCA9685")
 		(at 111.76 97.79 0)
 		(unit 1)

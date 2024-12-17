@@ -131,6 +131,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 38.1 33.02)
+		(size 21.59 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d580d0ce-f338-41ee-b9c2-c281f8b7cb57")
+		(property "Sheetname" "Vision"
+			(at 38.1 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Vision.kicad_sch"
+			(at 38.1 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Topographic Robot"
+				(path "/67e33313-0ce8-4ff5-8d50-46dc6ab8d472"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
