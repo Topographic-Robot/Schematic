@@ -63,7 +63,7 @@
 			)
 		)
 		(symbol "ESP32-WROOM-32_1_1"
-			(pin output line
+			(pin power_out line
 				(at -2.54 38.1 270)
 				(length 2.54)
 				(name "3V3"
@@ -550,7 +550,25 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -27.94 90)
+				(at -3.81 -27.94 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 -27.94 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -570,7 +588,7 @@
 			(pin power_in line
 				(at 2.54 38.1 270)
 				(length 2.54)
-				(name "VIN_5V"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -1718,6 +1718,26 @@
 		)
 		(uuid "0aca91bb-75ec-4a9e-89f9-2c7d65c22005")
 	)
+	(polyline
+		(pts
+			(xy 12.7 12.7) (xy 12.7 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12534aab-0bb1-43c3-a254-f4712eccf7f6")
+	)
+	(polyline
+		(pts
+			(xy 143.51 182.88) (xy 12.7 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b27ca2-3698-40c1-80cf-557089edcad6")
+	)
 	(wire
 		(pts
 			(xy 137.16 39.37) (xy 134.62 39.37)
@@ -1728,6 +1748,56 @@
 		)
 		(uuid "74e50aed-b2a5-45e0-9dee-cd2178feb3cf")
 	)
+	(polyline
+		(pts
+			(xy 12.7 12.7) (xy 13.97 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fdfacb-a390-4297-aa74-5858e1e82c18")
+	)
+	(polyline
+		(pts
+			(xy 12.7 12.7) (xy 264.16 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3b71d0-1a35-448d-8076-21ab10ce0fba")
+	)
+	(polyline
+		(pts
+			(xy 213.36 165.1) (xy 143.51 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95bd779b-ecdf-4503-8f39-0903a75fa152")
+	)
+	(polyline
+		(pts
+			(xy 12.7 182.88) (xy 12.7 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a83394-5cf9-4e37-a24f-eacfc3f2d991")
+	)
+	(polyline
+		(pts
+			(xy 213.36 62.23) (xy 213.36 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b5f3fc-a0e6-418c-9227-e21b0cd8cbe6")
+	)
 	(wire
 		(pts
 			(xy 134.62 41.91) (xy 137.16 41.91)
@@ -1737,6 +1807,46 @@
 			(type default)
 		)
 		(uuid "be68596c-0dde-4fb5-a02c-130e3ae7f6a5")
+	)
+	(polyline
+		(pts
+			(xy 264.16 62.23) (xy 213.36 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6426ed5-738f-4cc6-ad7d-319d634a3131")
+	)
+	(polyline
+		(pts
+			(xy 143.51 165.1) (xy 143.51 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a7be18-22cf-4714-89ce-abfa5de20bd3")
+	)
+	(polyline
+		(pts
+			(xy 264.16 12.7) (xy 264.16 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e600c6c4-c77c-4971-87b0-afc27e6f34a8")
+	)
+	(text "Motors + PWM Breakout Board"
+		(exclude_from_sim no)
+		(at 155.956 14.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "10715882-366f-40ed-b8e4-13d2cb674062")
 	)
 	(label "B1_PWM3"
 		(at 184.15 40.64 180)

@@ -69,7 +69,7 @@
 				)
 			)
 			(symbol "ESP32-WROOM-32_1_1"
-				(pin output line
+				(pin power_out line
 					(at -2.54 38.1 270)
 					(length 2.54)
 					(name "3V3"
@@ -556,7 +556,25 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -27.94 90)
+					(at -3.81 -27.94 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -27.94 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -576,7 +594,7 @@
 				(pin power_in line
 					(at 2.54 38.1 270)
 					(length 2.54)
-					(name "VIN_5V"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4048,9 +4066,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "749f65b6-85fa-4ed1-bf40-b4d2efb580a1")
+		(uuid "49fe37a8-2625-49c7-989c-854ebe9fd4dd")
 		(property "Reference" "U5"
-			(at 31.4041 83.82 0)
+			(at 33.9441 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +4077,7 @@
 			)
 		)
 		(property "Value" "ESP32-WROOM-32"
-			(at 31.4041 86.36 0)
+			(at 33.9441 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,94 +4113,97 @@
 			)
 		)
 		(pin ""
-			(uuid "b96bac52-00a7-4409-9ae4-39144970d95b")
+			(uuid "e74b2b17-ae69-40be-b876-5c913addf539")
 		)
 		(pin ""
-			(uuid "927896ba-7ebb-4c0a-9aec-a51864e90202")
+			(uuid "57f39e24-6085-46ca-a0a0-dc55f649def3")
 		)
 		(pin ""
-			(uuid "2ed0af2c-9aa2-4884-92e2-4880c7e816a4")
+			(uuid "bebb147a-79b3-443b-8e37-2a3663ede7cf")
 		)
 		(pin ""
-			(uuid "c4405f77-9c05-49b4-9129-295af4ab3d8a")
+			(uuid "3ab18a65-abbf-4edc-b3cd-9046b5442e6a")
 		)
 		(pin ""
-			(uuid "d65f8783-e771-429a-a0f7-56a8ab5f65ba")
+			(uuid "b2d73dce-71cb-4571-a1a5-52884ba58c3d")
 		)
 		(pin ""
-			(uuid "93002371-146e-44a2-be4f-4c396daf8baf")
+			(uuid "ba4c9c57-9103-4ac2-9edc-b0a871ea0438")
 		)
 		(pin ""
-			(uuid "37f36d01-fc45-46ab-8ac6-b8ed682f4334")
+			(uuid "838514bd-180b-4650-8be2-fda1907f3fd3")
 		)
 		(pin ""
-			(uuid "3b2e09ba-856f-4895-badc-42f6f52a62db")
+			(uuid "0ba5d6ef-629d-4114-8ca5-eef6bc0dabbf")
 		)
 		(pin ""
-			(uuid "a8a34df1-beaa-47a9-a1a1-bacb01cd0b64")
+			(uuid "ea2dc2f7-ef4d-4f2f-9805-5b518aa38777")
 		)
 		(pin ""
-			(uuid "663ab7bb-0564-4065-97b3-38ca36075e55")
+			(uuid "2d500374-309e-4c44-b652-1ba88b252255")
 		)
 		(pin ""
-			(uuid "11e54855-d001-4597-9177-965316ae7d90")
+			(uuid "b8ca120f-9b14-424c-86b6-8db4eddc3468")
 		)
 		(pin ""
-			(uuid "9cde870f-4290-4e65-a2e7-5da5fec9f359")
+			(uuid "83cfa034-9510-4967-b5fd-13f735db37f0")
 		)
 		(pin ""
-			(uuid "6bbfaec3-b76b-4416-9e7f-ba7ed368061a")
+			(uuid "3969e5ef-033c-40b6-85c4-570b225a7155")
 		)
 		(pin ""
-			(uuid "6388b009-48f5-4393-a694-347166fe5b0e")
+			(uuid "9e0f52c9-5734-4837-8a99-74f381686f12")
 		)
 		(pin ""
-			(uuid "1806ee96-8a86-410a-b485-99d7fbcbb2ea")
+			(uuid "9b9959bd-cc14-43e9-bb73-617ad467557f")
 		)
 		(pin ""
-			(uuid "77dc99e5-f484-4167-9b46-76594fd824c5")
+			(uuid "c57326b3-0905-43d5-93f6-9e8bfb1ccd3c")
 		)
 		(pin ""
-			(uuid "e1eda123-821b-4ee5-bf5c-4d80dba83c88")
+			(uuid "70147e93-885f-4401-8331-df26bde87c5b")
 		)
 		(pin ""
-			(uuid "7148ecde-ec9e-4728-8bc5-2fe6e5db955b")
+			(uuid "95e4c515-96e4-44b2-bbe7-c8f77fe0fd7c")
 		)
 		(pin ""
-			(uuid "f0c47d2d-413c-451e-9ffa-8a406884dfa1")
+			(uuid "b7a78179-807b-4a31-b718-e366c795a1af")
 		)
 		(pin ""
-			(uuid "d68a81dd-1fd0-48bd-9212-0dbb41b5a36a")
+			(uuid "6dd98dd7-635e-45db-93d4-fd71c33ed676")
 		)
 		(pin ""
-			(uuid "7f686f6a-625b-4466-bc41-e177a19ca329")
+			(uuid "49ccd166-ca4e-44f2-95ae-ed4cc86daa5d")
 		)
 		(pin ""
-			(uuid "30a1167a-450d-4d1b-905c-29888bc60445")
+			(uuid "7ac38f79-e15f-4ad4-a78a-9d3b95b41d42")
 		)
 		(pin ""
-			(uuid "435002e5-6df2-4d11-b22e-8a98f9095313")
+			(uuid "69f1327a-4be1-4b80-a809-0c1f85614be3")
 		)
 		(pin ""
-			(uuid "718e8a31-f769-493e-a78c-984c91398bc6")
+			(uuid "da9d9262-73f0-4ab2-9e8d-fa2995939757")
 		)
 		(pin ""
-			(uuid "5dd7c6ef-56f7-48cd-b99f-7f61ea325777")
+			(uuid "57b11616-3db5-48aa-9992-aad996d18007")
 		)
 		(pin ""
-			(uuid "2b1ca747-c67f-4cad-a39f-7166ab9f691f")
+			(uuid "a0895e19-8a99-4e84-8acc-58940af42ccf")
 		)
 		(pin ""
-			(uuid "f429a983-3223-4ada-8948-a26938ac99dc")
+			(uuid "3f945e6e-d113-4fd6-b4db-cb0126cec82b")
 		)
 		(pin ""
-			(uuid "103f74c9-f5ee-4a09-bc3b-a57e392542ce")
+			(uuid "c4b37d13-2221-4b98-86cf-ef1c786927c6")
 		)
 		(pin ""
-			(uuid "a13bc1eb-8571-4fa2-9d38-064bc6cdc11f")
+			(uuid "1573a168-3c24-4a22-a527-188853d60d83")
+		)
+		(pin ""
+			(uuid "6463c246-2f20-4201-b06d-d38ee1129445")
 		)
 		(instances
-			(project "Topographic Robot"
+			(project ""
 				(path "/67e33313-0ce8-4ff5-8d50-46dc6ab8d472/b10fdbae-69f4-4df8-8c58-54772b8ff5c0"
 					(reference "U5")
 					(unit 1)
@@ -4819,7 +4840,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 83.82 0)
+		(at 30.48 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4828,7 +4849,7 @@
 		(fields_autoplaced yes)
 		(uuid "c85186e8-af10-4a36-9bb5-ff06b2800c6e")
 		(property "Reference" "#PWR05"
-			(at 29.21 90.17 0)
+			(at 30.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +4858,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 88.9 0)
+			(at 30.48 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +4866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 83.82 0)
+			(at 30.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +4875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 83.82 0)
+			(at 30.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +4884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 83.82 0)
+			(at 30.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,6 +5200,72 @@
 			(project "Topographic Robot"
 				(path "/67e33313-0ce8-4ff5-8d50-46dc6ab8d472/b10fdbae-69f4-4df8-8c58-54772b8ff5c0"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb9ef117-2188-4eca-ae2b-dd566791ef6f")
+		(property "Reference" "#PWR038"
+			(at 25.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a585315-6af5-4e0a-afde-6bc76ecc535c")
+		)
+		(instances
+			(project "Topographic Robot"
+				(path "/67e33313-0ce8-4ff5-8d50-46dc6ab8d472/b10fdbae-69f4-4df8-8c58-54772b8ff5c0"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)

@@ -8,4 +8,5 @@
   (lib (name "USB")(type "KiCad")(uri "${KIPRJMOD}/USB.kicad_sym")(options "")(descr ""))
   (lib (name "Camera")(type "KiCad")(uri "${KIPRJMOD}/Camera.kicad_sym")(options "")(descr ""))
   (lib (name "Expansion")(type "KiCad")(uri "${KIPRJMOD}/Expansion.kicad_sym")(options "")(descr ""))
+  (lib (name "FPGA_Terasic_Simple")(type "KiCad")(uri "${KIPRJMOD}/FPGA_Terasic_Simple.kicad_sym")(options "")(descr ""))
 )
