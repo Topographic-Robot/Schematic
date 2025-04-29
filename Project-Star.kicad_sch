@@ -1,0 +1,116 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dfa3d008-01ec-4328-886a-a4a57a49a859")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 20.32 20.955)
+		(size 19.05 24.765)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86953d96-531f-4827-9448-d0cac3541dc1")
+		(property "Sheetname" "PCA9685 (2x)"
+			(at 20.32 20.2434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pca9685.kicad_sch"
+			(at 20.32 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 39.37 23.495 0)
+			(uuid "8595cdb5-2ebc-4b81-aa2a-2d45e303aa82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor_Enable_Pin" input
+			(at 39.37 28.575 0)
+			(uuid "36bcc55d-067b-4678-89ff-e445e52f4e4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 39.37 26.035 0)
+			(uuid "87675db9-3854-4708-8b21-6175a395ee9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 39.37 41.91 0)
+			(uuid "c590aaa3-b0fa-4f28-be54-b373f5272427")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "6V" input
+			(at 39.37 36.83 0)
+			(uuid "a3b2fff6-3ad8-43da-8f3f-5c5b3b88e6ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 39.37 39.37 0)
+			(uuid "a7f702f6-6c39-408a-b40f-a549623bb899")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Project-Star"
+				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
