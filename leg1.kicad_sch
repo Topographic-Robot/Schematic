@@ -956,6 +956,12 @@
 		(uuid "2f22ff86-1d10-48e1-9b49-4958e7d8cce7")
 	)
 	(junction
+		(at 132.08 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a0e9f40-3a30-4bb7-8206-8925cfcf1faa")
+	)
+	(junction
 		(at 173.99 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1197,6 +1203,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 55.88) (xy 137.16 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8022cff9-4c94-46b3-a6a2-7db0170edb89")
+	)
+	(wire
+		(pts
 			(xy 81.28 85.09) (xy 77.47 85.09)
 		)
 		(stroke
@@ -1435,16 +1451,6 @@
 		)
 		(uuid "fb57e9f2-97ed-4f1f-8d6e-28b0697f38d8")
 	)
-	(wire
-		(pts
-			(xy 125.73 67.31) (xy 130.81 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc4da20c-238c-42c4-b090-f6e1c1ae9555")
-	)
 	(label "VCC"
 		(at 96.52 83.82 0)
 		(effects
@@ -1456,6 +1462,16 @@
 		(uuid "03b9cd0b-2862-462f-8e11-320725e90a73")
 	)
 	(label "VCC"
+		(at 137.16 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a528735-6916-4db4-a90a-b1d7b3ac9bcd")
+	)
+	(label "VCC"
 		(at 139.7 83.82 0)
 		(effects
 			(font
@@ -1464,16 +1480,6 @@
 			(justify left bottom)
 		)
 		(uuid "31eed76f-9799-4422-8c2b-8f751691d81e")
-	)
-	(label "VCC"
-		(at 130.81 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "424f984c-2606-40f3-a245-250b9c063e48")
 	)
 	(label "VCC"
 		(at 184.15 85.09 0)
@@ -2628,6 +2634,71 @@
 			(project "Project-Star"
 				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859/86953d96-531f-4827-9448-d0cac3541dc1/73636b36-e11b-4bbb-a8ef-31dc5b9ed039"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2dcfe3c-8cd6-422f-9d91-96235b42031c")
+		(property "Reference" "#PWR048"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dab7084-ff6f-46cb-8a64-21fc77165f59")
+		)
+		(instances
+			(project "Project-Star"
+				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859/86953d96-531f-4827-9448-d0cac3541dc1/73636b36-e11b-4bbb-a8ef-31dc5b9ed039"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
