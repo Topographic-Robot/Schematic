@@ -5,9 +5,371 @@
 	(uuid "dfa3d008-01ec-4328-886a-a4a57a49a859")
 	(paper "A4")
 	(lib_symbols)
+	(text "Fix the footprints of the inductors"
+		(exclude_from_sim no)
+		(at 197.104 92.71 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+				(thickness 0.635)
+				(bold yes)
+			)
+		)
+		(uuid "18e50a38-abb7-464c-8e45-436df712ed14")
+	)
+	(wire
+		(pts
+			(xy 111.76 170.18) (xy 106.68 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18256182-528c-4ea8-ac4a-05118b3c1680")
+	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ccfb83-6a5b-48ba-9957-e96490a31b8e")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.36) (xy 106.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7db340-eacf-4810-a7b4-71c726fe3caf")
+	)
+	(wire
+		(pts
+			(xy 111.76 24.13) (xy 106.68 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62edc242-d9c5-474b-bb05-6403a63e0b05")
+	)
+	(wire
+		(pts
+			(xy 111.76 127) (xy 106.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf177cc-de87-43b2-bc37-d918ff178763")
+	)
+	(wire
+		(pts
+			(xy 111.76 189.23) (xy 106.68 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d0573f-6a35-43b7-9616-c85abba28c17")
+	)
+	(wire
+		(pts
+			(xy 111.76 149.86) (xy 106.68 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af23f0ba-ab45-4300-b19a-8bf4b34bdd35")
+	)
+	(wire
+		(pts
+			(xy 111.76 106.68) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84f9039-1008-4bc3-a824-7ebfb2145fde")
+	)
+	(wire
+		(pts
+			(xy 111.76 46.99) (xy 106.68 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01fedc2-45d6-4df3-ab62-6c4862cd7ce1")
+	)
+	(global_label "6V_Line2"
+		(shape input)
+		(at 111.76 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05b9bd6b-6c1e-47c3-beb6-1ef80231e9ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.0909 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "20V"
+		(shape input)
+		(at 111.76 189.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15b3191e-5610-4cea-adfb-f275620d3ba9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.2528 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "6V_Line4"
+		(shape input)
+		(at 111.76 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7678c678-47fd-48cd-9221-03799235a99a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.0909 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "6V_Line3"
+		(shape input)
+		(at 111.76 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "845ddeed-c429-429f-be3f-4dbbcc113999")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.0909 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 111.76 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fbf046b-3c96-4b5e-b849-9ca35aad8c5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.0433 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "6V_Line1"
+		(shape input)
+		(at 111.76 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a491257d-fc8b-44c6-a581-c0c3d622590b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.0909 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 111.76 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b34e5959-8d05-4dfb-9f29-750171363cc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.2528 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "6V_Line5"
+		(shape input)
+		(at 111.76 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bedae497-d9c6-4eaf-972b-cfa0fa3e097a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.0909 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "6V_Line6"
+		(shape input)
+		(at 111.76 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3565bd1-3700-4b1c-9bd3-cab3fc7e2414")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.0909 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(sheet
-		(at 55.245 55.88)
-		(size 19.685 13.335)
+		(at 87.63 40.64)
+		(size 19.05 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21451654-b076-4d45-8a89-436dcad24714")
+		(property "Sheetname" "5V_Power_Line"
+			(at 87.63 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V_Power_Line.kicad_sch"
+			(at 87.63 53.2896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 87.63 46.99 180)
+			(uuid "7da9bd29-ce06-4328-a91b-6b69d7982ff3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 106.68 46.99 0)
+			(uuid "3ac22095-4518-4e12-990c-41717cf7df92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Project-Star"
+				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 17.78)
+		(size 19.05 13.335)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +384,7 @@
 		)
 		(uuid "30a0ace3-045a-4121-a61f-7fa68fe5d3a0")
 		(property "Sheetname" "3V3_Power_Line"
-			(at 55.245 55.1684 0)
+			(at 87.63 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +393,7 @@
 			)
 		)
 		(property "Sheetfile" "3V3_Power_Line.kicad_sch"
-			(at 55.245 69.7996 0)
+			(at 87.63 31.6996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,13 +402,23 @@
 			)
 		)
 		(pin "Vin" input
-			(at 55.245 62.23 180)
+			(at 87.63 24.13 180)
 			(uuid "21a76321-797e-4a20-893d-6438eb0f8d6d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 106.68 24.13 0)
+			(uuid "bf5f2e52-abf0-455f-bafb-40ae075f4d5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -58,49 +430,7 @@
 		)
 	)
 	(sheet
-		(at 55.245 77.47)
-		(size 19.05 12.065)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4d2ef424-7537-4063-a452-ee3d59049d8e")
-		(property "Sheetname" "5V_Power_Line"
-			(at 55.245 76.7584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "5V_Power_Line.kicad_sch"
-			(at 55.245 90.1196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Project-Star"
-				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 100.33 43.815)
+		(at 137.795 20.32)
 		(size 19.05 24.765)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -116,7 +446,7 @@
 		)
 		(uuid "50ec6b1a-f906-43ba-9be1-78681b5bb3a1")
 		(property "Sheetname" "PCA9685 (2x)"
-			(at 100.33 43.1034 0)
+			(at 137.795 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,7 +455,7 @@
 			)
 		)
 		(property "Sheetfile" "pca9685.kicad_sch"
-			(at 100.33 69.1646 0)
+			(at 137.795 45.6696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -137,6 +467,440 @@
 			(project "Project-Star"
 				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 120.015)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5467788e-9c05-405d-a16a-31e675c9dbe2")
+		(property "Sheetname" "6V_Power_Line4"
+			(at 87.63 119.3034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "6V_Power_Line.kicad_sch"
+			(at 87.63 133.2996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 87.63 127 180)
+			(uuid "70fde8bf-0a35-460b-b231-67b36277ea15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 106.68 127 0)
+			(uuid "43a6ce58-660a-4093-80c8-76ca11c82240")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Project-Star"
+				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 99.695)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55c55a0f-7dba-4ba4-bd78-beae493e9307")
+		(property "Sheetname" "6V_Power_Line3"
+			(at 87.63 98.9834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "6V_Power_Line.kicad_sch"
+			(at 87.63 112.9796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 87.63 106.68 180)
+			(uuid "2d985301-ce36-4de9-93f6-95aef4b6effa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 106.68 106.68 0)
+			(uuid "1152d45a-db7e-4acd-8d31-2f7bc5c59bde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Project-Star"
+				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 59.055)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82d13069-335a-4485-b55b-366c7457851f")
+		(property "Sheetname" "6V_Power_Line1"
+			(at 87.63 58.3434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "6V_Power_Line.kicad_sch"
+			(at 87.63 72.3396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 87.63 66.04 180)
+			(uuid "930c30b5-964f-407d-93ca-2f4370f981f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 106.68 66.04 0)
+			(uuid "953eac22-015e-481e-b7c9-a0d4aefe9d51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Project-Star"
+				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 163.195)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5f26b13-50ef-463b-a7fd-b5be6ae41d42")
+		(property "Sheetname" "6V_Power_Line6"
+			(at 87.63 162.4834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "6V_Power_Line.kicad_sch"
+			(at 87.63 176.4796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 87.63 170.18 180)
+			(uuid "0beedab2-b61e-491a-a8ed-dd624339a6ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 106.68 170.18 0)
+			(uuid "c0d53d7b-eded-48c5-add4-df2b4b805530")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Project-Star"
+				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 182.88)
+		(size 19.05 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6fdaccd-0bd6-45f9-a101-06b63ae7d0a5")
+		(property "Sheetname" "20V_Power_Line"
+			(at 87.63 182.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "20V_Power_Line.kicad_sch"
+			(at 87.63 194.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 87.63 189.23 180)
+			(uuid "14928fb1-55fb-40aa-9756-a40d747d599c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 106.68 189.23 0)
+			(uuid "986f7c84-e89c-41f3-94c9-05e0ea1dae71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Project-Star"
+				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 142.875)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "efd0b54c-d6c5-4243-ae81-b0529b33997e")
+		(property "Sheetname" "6V_Power_Line5"
+			(at 87.63 142.1634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "6V_Power_Line.kicad_sch"
+			(at 87.63 156.1596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 87.63 149.86 180)
+			(uuid "60a7314c-3160-4ca1-8152-eb5e01d6d80e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 106.68 149.86 0)
+			(uuid "dd05572c-198b-40b6-84cc-53173030c134")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Project-Star"
+				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 79.375)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f16237b8-eadc-4300-85ab-ad1f2e541b35")
+		(property "Sheetname" "6V_Power_Line2"
+			(at 87.63 78.6634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "6V_Power_Line.kicad_sch"
+			(at 87.63 92.6596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 87.63 86.36 180)
+			(uuid "fd4130d9-b34f-4850-b228-e033f83d027a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" input
+			(at 106.68 86.36 0)
+			(uuid "2557b661-0afb-4817-af96-18e93eaf226e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Project-Star"
+				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
+					(page "9")
 				)
 			)
 		)

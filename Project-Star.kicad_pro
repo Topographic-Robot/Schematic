@@ -626,8 +626,36 @@
       "3V3_Power_Line"
     ],
     [
-      "4d2ef424-7537-4063-a452-ee3d59049d8e",
+      "21451654-b076-4d45-8a89-436dcad24714",
       "5V_Power_Line"
+    ],
+    [
+      "c6fdaccd-0bd6-45f9-a101-06b63ae7d0a5",
+      "20V_Power_Line"
+    ],
+    [
+      "82d13069-335a-4485-b55b-366c7457851f",
+      "6V_Power_Line1"
+    ],
+    [
+      "f16237b8-eadc-4300-85ab-ad1f2e541b35",
+      "6V_Power_Line2"
+    ],
+    [
+      "55c55a0f-7dba-4ba4-bd78-beae493e9307",
+      "6V_Power_Line3"
+    ],
+    [
+      "5467788e-9c05-405d-a16a-31e675c9dbe2",
+      "6V_Power_Line4"
+    ],
+    [
+      "efd0b54c-d6c5-4243-ae81-b0529b33997e",
+      "6V_Power_Line5"
+    ],
+    [
+      "c5f26b13-50ef-463b-a7fd-b5be6ae41d42",
+      "6V_Power_Line6"
     ]
   ],
   "text_variables": {}
