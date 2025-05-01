@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -614,32 +614,20 @@
       "Root"
     ],
     [
-      "86953d96-531f-4827-9448-d0cac3541dc1",
+      "50ec6b1a-f906-43ba-9be1-78681b5bb3a1",
       "PCA9685 (2x)"
     ],
     [
-      "73636b36-e11b-4bbb-a8ef-31dc5b9ed039",
-      "leg 1"
+      "c3b9a73c-7ccc-44f3-bc7d-7a0ac759ea5d",
+      "hexapod_legs"
     ],
     [
-      "5c1ec4f6-918e-452b-bd41-da5d0c8fd733",
-      "leg 2"
+      "30a0ace3-045a-4121-a61f-7fa68fe5d3a0",
+      "3V3_Power_Line"
     ],
     [
-      "2cdf55dc-ee1e-4e92-a8c6-cb6b699add3d",
-      "leg 3"
-    ],
-    [
-      "6d416b85-94da-42b1-acc3-c8739a650658",
-      "leg 4"
-    ],
-    [
-      "d36efff5-6313-45b4-9980-3973c404faf1",
-      "leg 5"
-    ],
-    [
-      "1134467f-6f6f-42e7-8742-70b025633cba",
-      "leg 6"
+      "4d2ef424-7537-4063-a452-ee3d59049d8e",
+      "5V_Power_Line"
     ]
   ],
   "text_variables": {}
