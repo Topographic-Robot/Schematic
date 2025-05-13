@@ -5247,7 +5247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c652eaf4-e987-4380-81fe-cc01005c53dd")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 57.15 144.7799 0)
 			(effects
 				(font
@@ -5337,7 +5337,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859/50ec6b1a-f906-43ba-9be1-78681b5bb3a1"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)

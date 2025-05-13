@@ -687,7 +687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f4a5297-ad72-435c-93a4-bd32f501824e")
-		(property "Reference" "J21"
+		(property "Reference" "J1"
 			(at 48.26 35.5599 0)
 			(effects
 				(font
@@ -756,7 +756,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
-					(reference "J21")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -772,7 +772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b801ae4-92fa-49ec-a8f3-7e98e2aa24f4")
-		(property "Reference" "J20"
+		(property "Reference" "J2"
 			(at 36.83 57.15 0)
 			(effects
 				(font
@@ -839,7 +839,7 @@
 		(instances
 			(project ""
 				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859"
-					(reference "J20")
+					(reference "J2")
 					(unit 1)
 				)
 			)
