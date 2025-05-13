@@ -1360,6 +1360,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "scale this down to 1.5A"
+		(exclude_from_sim no)
+		(at 139.446 40.386 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2814d87e-4d5e-4f8b-b068-bf058f8c416a")
+	)
 	(text "22V-33.6V to 3.30V @ 4A"
 		(exclude_from_sim no)
 		(at 138.176 99.822 0)
@@ -3403,7 +3413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-2010"
+		(property "Footprint" "Inductor_THT:L_Radial_D10.0mm_P5.00mm_Fastron_07M"
 			(at 214.63 66.04 0)
 			(effects
 				(font
@@ -3421,12 +3431,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2010"
+		(property "Description" "6mm x 6mm"
 			(at 214.63 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

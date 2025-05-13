@@ -2929,7 +2929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Wurth:L_Wurth_WE-LQSH-2010"
+		(property "Footprint" "Inductor_THT:L_Radial_D10.0mm_P5.00mm_Fastron_07M"
 			(at 215.9 87.63 0)
 			(effects
 				(font
@@ -2947,12 +2947,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2010"
+		(property "Description" "6mm x 6mm"
 			(at 215.9 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
