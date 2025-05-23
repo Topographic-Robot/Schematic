@@ -732,8 +732,44 @@
   },
   "sheets": [
     [
-      "fc8533bc-25dd-4c20-9b4c-ffebebd6739b",
+      "dfa3d008-01ec-4328-886a-a4a57a49a859",
       "Root"
+    ],
+    [
+      "50ec6b1a-f906-43ba-9be1-78681b5bb3a1",
+      "PCA9685 (2x)"
+    ],
+    [
+      "c3b9a73c-7ccc-44f3-bc7d-7a0ac759ea5d",
+      "hexapod_legs"
+    ],
+    [
+      "c6fdaccd-0bd6-45f9-a101-06b63ae7d0a5",
+      "20V_Power_Line"
+    ],
+    [
+      "82d13069-335a-4485-b55b-366c7457851f",
+      "6V_Power_Line1"
+    ],
+    [
+      "f16237b8-eadc-4300-85ab-ad1f2e541b35",
+      "6V_Power_Line2"
+    ],
+    [
+      "55c55a0f-7dba-4ba4-bd78-beae493e9307",
+      "6V_Power_Line3"
+    ],
+    [
+      "5467788e-9c05-405d-a16a-31e675c9dbe2",
+      "6V_Power_Line4"
+    ],
+    [
+      "efd0b54c-d6c5-4243-ae81-b0529b33997e",
+      "6V_Power_Line5"
+    ],
+    [
+      "c5f26b13-50ef-463b-a7fd-b5be6ae41d42",
+      "6V_Power_Line6"
     ]
   ],
   "text_variables": {}

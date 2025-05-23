@@ -1165,156 +1165,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:0402CG101J500NT"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0402CG101J500NT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0402"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100pF-101-5-50V_C1546.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C1546"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402CG101J500NT_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:0402CG5R1C500NT"
 			(pin_numbers
 				(hide yes)
@@ -1804,6 +1654,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:0603B154K500NT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603B154K500NT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_150nF-154-10-50V_C1597.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C1597"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603B154K500NT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:0603B272K500NT"
 			(pin_numbers
 				(hide yes)
@@ -2017,156 +2017,6 @@
 				)
 			)
 			(symbol "0603B391K500NT_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:0603B393K500NT"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0603B393K500NT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_39nF-393-10-50V_C1619.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C1619"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0603B393K500NT_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy -0.51 0)
@@ -3887,6 +3737,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:GRM1555C1H111JA01D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 81.28 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GRM1555C1H111JA01D"
+				(at 0 71.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0402"
+				(at 0 68.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C185562"
+				(at 0 66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GRM1555C1H111JA01D_0_1"
+				(polyline
+					(pts
+						(xy -102.11 76.2) (xy -104.14 76.2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -102.11 74.17) (xy -102.11 78.23)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -101.09 78.23) (xy -101.09 74.17)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -99.06 76.2) (xy -101.09 76.2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -106.68 76.2 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -96.52 76.2 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:GRM21BR61H106KE43L"
 			(pin_numbers
 				(hide yes)
@@ -4998,6 +4998,12 @@
 		(uuid "1c109ef3-500d-4a1e-a880-0d7eca5b46af")
 	)
 	(junction
+		(at 180.34 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "219c339a-b988-459f-8e5d-a359d427470f")
+	)
+	(junction
 		(at 195.58 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5076,6 +5082,12 @@
 		(uuid "50853a05-18fa-421d-946b-0246e97f1369")
 	)
 	(junction
+		(at 144.78 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "517621bb-8919-4dbf-85ff-f322aebb47e3")
+	)
+	(junction
 		(at 274.32 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5122,12 +5134,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73927cc7-ee31-420c-a80c-2b542591f3bc")
-	)
-	(junction
-		(at 162.56 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "744418c8-a378-4fce-a2c2-dce2a08b1fed")
 	)
 	(junction
 		(at 81.28 128.27)
@@ -5359,7 +5365,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 148.59) (xy 180.34 161.29)
+			(xy 180.34 148.59) (xy 180.34 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5449,6 +5455,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 140.97) (xy 144.78 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0914d957-8c0e-4e63-819a-91978fee7bc8")
+	)
+	(wire
+		(pts
 			(xy 111.76 115.57) (xy 111.76 135.89)
 		)
 		(stroke
@@ -5496,16 +5512,6 @@
 			(type default)
 		)
 		(uuid "14aa1b75-68a9-4686-8006-9f118a838225")
-	)
-	(wire
-		(pts
-			(xy 144.78 140.97) (xy 144.78 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14e30603-e13b-433c-820b-c0acdaafc602")
 	)
 	(wire
 		(pts
@@ -5566,16 +5572,6 @@
 			(type default)
 		)
 		(uuid "1d697407-1729-4428-b17b-599682b77472")
-	)
-	(wire
-		(pts
-			(xy 162.56 161.29) (xy 180.34 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e5f73ae-55ae-4594-8d08-3dd475d1c3fa")
 	)
 	(wire
 		(pts
@@ -5849,7 +5845,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 176.53) (xy 162.56 176.53)
+			(xy 113.03 176.53) (xy 144.78 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5939,7 +5935,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 158.75) (xy 162.56 161.29)
+			(xy 162.56 158.75) (xy 162.56 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6019,16 +6015,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 161.29) (xy 162.56 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a4e5f90-a5e5-4b51-a516-aba49f6bcd64")
-	)
-	(wire
-		(pts
 			(xy 111.76 115.57) (xy 115.57 115.57)
 		)
 		(stroke
@@ -6059,7 +6045,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 176.53) (xy 195.58 176.53)
+			(xy 176.53 176.53) (xy 180.34 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6149,16 +6135,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 120.65) (xy 128.27 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65e4ac2f-7352-4b98-b65c-b3eec6dcacbf")
-	)
-	(wire
-		(pts
 			(xy 299.72 148.59) (xy 307.34 148.59)
 		)
 		(stroke
@@ -6226,16 +6202,6 @@
 			(type default)
 		)
 		(uuid "6d7bdeb0-e4c5-4c36-8eb6-c091ab22759e")
-	)
-	(wire
-		(pts
-			(xy 144.78 161.29) (xy 162.56 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dac0ae9-570b-48bf-b54a-e4184411246a")
 	)
 	(wire
 		(pts
@@ -6499,13 +6465,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 120.65) (xy 143.51 120.65)
+			(xy 134.62 120.65) (xy 143.51 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9017c23f-b5c1-44ec-a974-44ba57318d7d")
+		(uuid "904e6ec9-a121-41d6-9103-30ba7aa7d3b6")
 	)
 	(wire
 		(pts
@@ -6546,6 +6512,16 @@
 			(type default)
 		)
 		(uuid "91d48d6f-9269-4d27-987c-2803eb8bca6b")
+	)
+	(wire
+		(pts
+			(xy 180.34 176.53) (xy 195.58 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92303461-f4ef-43f3-a435-6e4ae9cce6f9")
 	)
 	(wire
 		(pts
@@ -6899,6 +6875,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 120.65) (xy 124.46 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1171e94-5c51-450f-8218-945b348943d2")
+	)
+	(wire
+		(pts
 			(xy 388.62 124.46) (xy 388.62 130.81)
 		)
 		(stroke
@@ -7146,6 +7132,16 @@
 			(type default)
 		)
 		(uuid "f11fd140-51f4-4ad3-8ebd-2bb152aeaddd")
+	)
+	(wire
+		(pts
+			(xy 144.78 176.53) (xy 162.56 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a34a3b-f594-4f2b-87bf-2835afa5246e")
 	)
 	(wire
 		(pts
@@ -7954,6 +7950,83 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:GRM1555C1H111JA01D")
+		(at 231.14 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34909f8e-d9e9-47c8-a5e8-142232f1dd87")
+		(property "Reference" "Ccomp2"
+			(at 129.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110p"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 231.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C185562"
+			(at 231.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09392abc-f951-46cf-b668-d094621d49f1")
+		)
+		(pin "2"
+			(uuid "0059a565-f852-48e5-8923-3187e2e68086")
+		)
+		(instances
+			(project "Project-Star"
+				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859/c6fdaccd-0bd6-45f9-a101-06b63ae7d0a5"
+					(reference "Ccomp2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:0402CG5R1C500NT")
 		(at 201.93 166.37 270)
 		(unit 1)
@@ -8425,84 +8498,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:0603B393K500NT")
-		(at 107.95 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60310cc5-1d63-4998-a084-82c3bce7af35")
-		(property "Reference" "Css1"
-			(at 113.792 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "39n"
-			(at 113.792 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0603"
-			(at 100.33 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_39nF-393-10-50V_C1619.html"
-			(at 97.79 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C1619"
-			(at 95.25 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "633c7bb4-d07b-4fda-b1a8-49b671bd8133")
-		)
-		(pin "2"
-			(uuid "d4559478-2765-473f-8e88-1e53bc37db9c")
-		)
-		(instances
-			(project ""
-				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859/c6fdaccd-0bd6-45f9-a101-06b63ae7d0a5"
-					(reference "Css1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SL_Mechanical:MountingHole_M3_3.2mm_Pad")
 		(at 127 259.08 270)
 		(unit 1)
@@ -8710,6 +8705,85 @@
 			(project ""
 				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859/c6fdaccd-0bd6-45f9-a101-06b63ae7d0a5"
 					(reference "Ruv2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:0603B154K500NT")
+		(at 107.95 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7740e090-f46b-4628-8ede-4c9a1b86eb20")
+		(property "Reference" "Css1"
+			(at 111.76 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150n"
+			(at 111.76 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_150nF-154-10-50V_C1597.html"
+			(at 97.79 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1597"
+			(at 95.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aad51dd6-7770-49e3-aa30-b639208843f7")
+		)
+		(pin "2"
+			(uuid "181e171e-717b-4fc3-999e-4ffa383d68d3")
+		)
+		(instances
+			(project ""
+				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859/c6fdaccd-0bd6-45f9-a101-06b63ae7d0a5"
+					(reference "Css1")
 					(unit 1)
 				)
 			)
@@ -9963,83 +10037,6 @@
 			(project ""
 				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859/c6fdaccd-0bd6-45f9-a101-06b63ae7d0a5"
 					(reference "Ruv1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:0402CG101J500NT")
-		(at 132.08 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b083f949-e56e-4434-8e83-df2033988854")
-		(property "Reference" "Ccomp2"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100p"
-			(at 132.08 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0402"
-			(at 132.08 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100pF-101-5-50V_C1546.html"
-			(at 132.08 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C1546"
-			(at 132.08 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b832a7e-2b2e-4340-a6ca-d3b3f8426a6d")
-		)
-		(pin "2"
-			(uuid "e7f184ac-e71a-408b-89fb-f442fc429cf2")
-		)
-		(instances
-			(project ""
-				(path "/dfa3d008-01ec-4328-886a-a4a57a49a859/c6fdaccd-0bd6-45f9-a101-06b63ae7d0a5"
-					(reference "Ccomp2")
 					(unit 1)
 				)
 			)
