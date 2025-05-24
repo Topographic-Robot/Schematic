@@ -1,0 +1,10 @@
+REPO: https://github.com/azerimaker/BMS_3-5S/
+DESIGN DOC: https://www.ti.com/lit/an/slva729a/slva729a.pdf
+DESIGN DOC: https://www.ti.com/lit/df/tidrht7/tidrht7.pdf?ts=1747948670812
+
+
+Referring to FET Configuration guide from TI Figure.36 on p.30. On new design R28, R30, R31 and Q5 switch need to be swapped, R70 need to be placed between Source and Gate of the Q5.
+
+Source and Drain of the Q11 and Q12 P-Channel FETs need to be reversed. Unfortunately this is a bug which was inherited from TIDA-00449 reference design.
+
+
