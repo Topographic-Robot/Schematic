@@ -1,0 +1,6 @@
+series is simpler and will do precharge support build in
+parallel paths can be optimized, allows for more discharge and less charge fets if needed
+
+find cont discharge of the fets then calculate how many are needed to hit 100A
+- pchg needs to be done with another IC/circuit
+
