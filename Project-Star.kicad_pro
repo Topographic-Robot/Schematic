@@ -718,6 +718,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -734,6 +742,10 @@
     [
       "fc8533bc-25dd-4c20-9b4c-ffebebd6739b",
       "Root"
+    ],
+    [
+      "73b7fbcc-36b4-400c-ac2b-13d8266498a2",
+      "USB-C-PD3.0"
     ]
   ],
   "text_variables": {}
