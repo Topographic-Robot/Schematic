@@ -744,8 +744,56 @@
       "Root"
     ],
     [
+      "e8da5d81-614b-4fe5-84b3-4c351fab7114",
+      "BMS Protection Board"
+    ],
+    [
       "73b7fbcc-36b4-400c-ac2b-13d8266498a2",
       "USB-C-PD3.0"
+    ],
+    [
+      "2e07670d-30e4-461b-a69e-227505cf7e3a",
+      "Passive Balancing Circuit"
+    ],
+    [
+      "630f7375-f278-4dbb-a8b3-ba91b4ac5d22",
+      "Balancing - BMC"
+    ],
+    [
+      "ec6b8b52-e72f-4bdb-9407-1b78ccd1535b",
+      "Current Sense Filtering"
+    ],
+    [
+      "0284ed28-c434-46ce-a359-08e3f2d412cf",
+      "MCU Current Sense"
+    ],
+    [
+      "9d9414eb-0fa9-444a-a653-4c48988997ba",
+      "Wake Up"
+    ],
+    [
+      "0c1979a3-247e-411f-a48d-22d4cf657d3e",
+      "High Side Gate Driver"
+    ],
+    [
+      "50815f1d-1644-428c-b276-eedae9a24b03",
+      "Pack Switching and Current Sensing"
+    ],
+    [
+      "6b10105f-d41f-4638-b42b-c651baa60ee4",
+      "BMS_Thermistors"
+    ],
+    [
+      "e3d465d4-4bae-42f2-91c8-f61f15aa6ae9",
+      "High Voltage REGSRC Supply"
+    ],
+    [
+      "bad915fd-f1b0-44f5-8fcf-8d1c33cbafd0",
+      "BMS_Read_Voltage"
+    ],
+    [
+      "f906fe21-2c16-4824-b052-c094e4cc771b",
+      "Battery Management System Controller"
     ]
   ],
   "text_variables": {}
