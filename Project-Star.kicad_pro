@@ -748,10 +748,6 @@
       "BMS Protection Board"
     ],
     [
-      "73b7fbcc-36b4-400c-ac2b-13d8266498a2",
-      "USB-C-PD3.0"
-    ],
-    [
       "2e07670d-30e4-461b-a69e-227505cf7e3a",
       "Passive Balancing Circuit"
     ],
@@ -781,7 +777,7 @@
     ],
     [
       "6b10105f-d41f-4638-b42b-c651baa60ee4",
-      "BMS_Thermistors"
+      "BMS Thermistors"
     ],
     [
       "e3d465d4-4bae-42f2-91c8-f61f15aa6ae9",
@@ -789,11 +785,31 @@
     ],
     [
       "bad915fd-f1b0-44f5-8fcf-8d1c33cbafd0",
-      "BMS_Read_Voltage"
+      "BMS Read Voltage"
     ],
     [
-      "f906fe21-2c16-4824-b052-c094e4cc771b",
-      "Battery Management System Controller"
+      "6d074958-b8d9-4950-88c6-86ab001483bb",
+      "USB-C PD 3.1 Sink"
+    ],
+    [
+      "ef7d56b8-7bc1-4b50-a350-04b57fde7209",
+      "USB-C PD 3.0 Source"
+    ],
+    [
+      "4e2cfc12-ee40-4d17-9d6f-838ea40fdecb",
+      "Power Management System Controller"
+    ],
+    [
+      "3802a177-d38b-464c-9270-4efc10a69d29",
+      "Power Enable 3V3"
+    ],
+    [
+      "142d0f00-a1ef-4c75-851a-23c5e969fe85",
+      "BMS Read Temperature"
+    ],
+    [
+      "45e3737c-87b6-4a0a-9bbf-f87983ecc7f3",
+      "PMSC_MCU"
     ]
   ],
   "text_variables": {}
