@@ -1551,7 +1551,7 @@
 		)
 		(uuid "044397cf-4998-48b3-bc00-552c984da36b")
 	)
-	(text "Balancing & BMC"
+	(text "Balancing & BMC (AFE)"
 		(exclude_from_sim no)
 		(at 141.732 141.224 0)
 		(effects
@@ -2939,7 +2939,7 @@
 		)
 		(uuid "4e13d146-c468-4c93-9c06-6fc2a1ec931f")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "I2Cbms_SCL"
 		(shape bidirectional)
 		(at 156.21 63.5 0)
 		(effects
@@ -2961,7 +2961,7 @@
 		)
 		(uuid "5f7bcbaa-743a-4db9-b1b4-f48dcc4a4028")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "I2Cbms_SDA"
 		(shape bidirectional)
 		(at 156.21 60.96 0)
 		(effects
@@ -3115,7 +3115,7 @@
 		)
 		(uuid "ec6b032c-3bfb-4c7f-928f-e181a28de20b")
 	)
-	(hierarchical_label "ALERT"
+	(hierarchical_label "I2Cbms_IRQ"
 		(shape output)
 		(at 190.5 77.47 0)
 		(effects
