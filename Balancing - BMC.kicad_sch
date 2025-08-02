@@ -2466,7 +2466,7 @@
 		)
 		(uuid "058c6e11-3935-4cce-930d-448153d2fd47")
 	)
-	(label "CHG"
+	(label "CHG_EN"
 		(at 156.21 106.68 180)
 		(effects
 			(font
@@ -2506,7 +2506,7 @@
 		)
 		(uuid "3ab1df87-e9e3-4133-9342-b7bca7efeb6e")
 	)
-	(label "DSG"
+	(label "DSG_EN"
 		(at 156.21 104.14 180)
 		(effects
 			(font
@@ -2939,7 +2939,7 @@
 		)
 		(uuid "4e13d146-c468-4c93-9c06-6fc2a1ec931f")
 	)
-	(hierarchical_label "I2Cbms_SCL"
+	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 156.21 63.5 0)
 		(effects
@@ -2961,7 +2961,7 @@
 		)
 		(uuid "5f7bcbaa-743a-4db9-b1b4-f48dcc4a4028")
 	)
-	(hierarchical_label "I2Cbms_SDA"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 156.21 60.96 0)
 		(effects
@@ -2972,7 +2972,7 @@
 		)
 		(uuid "636e6a5a-c698-40b9-823d-94c3a222b99c")
 	)
-	(hierarchical_label "DSG"
+	(hierarchical_label "DSG_EN"
 		(shape output)
 		(at 156.21 104.14 0)
 		(effects
@@ -3049,7 +3049,7 @@
 		)
 		(uuid "829daf42-e6c6-4da6-9fd6-ce21b89b197f")
 	)
-	(hierarchical_label "CHG"
+	(hierarchical_label "CHG_EN"
 		(shape output)
 		(at 156.21 106.68 0)
 		(effects
@@ -3115,7 +3115,7 @@
 		)
 		(uuid "ec6b032c-3bfb-4c7f-928f-e181a28de20b")
 	)
-	(hierarchical_label "I2Cbms_IRQ"
+	(hierarchical_label "ALERT"
 		(shape output)
 		(at 190.5 77.47 0)
 		(effects

@@ -760,20 +760,16 @@
       "Current Sense Filtering"
     ],
     [
-      "0284ed28-c434-46ce-a359-08e3f2d412cf",
-      "MCU Current Sense"
+      "cc0a7e05-dd91-401b-a994-41ee02720f37",
+      "Pack Switching and Current Sensing"
     ],
     [
       "9d9414eb-0fa9-444a-a653-4c48988997ba",
       "Wake Up"
     ],
     [
-      "0c1979a3-247e-411f-a48d-22d4cf657d3e",
+      "15d8d2f8-18df-455b-b74e-5d59f69dac44",
       "High Side Gate Driver"
-    ],
-    [
-      "50815f1d-1644-428c-b276-eedae9a24b03",
-      "Pack Switching and Current Sensing"
     ],
     [
       "6b10105f-d41f-4638-b42b-c651baa60ee4",
@@ -784,32 +780,8 @@
       "High Voltage REGSRC Supply"
     ],
     [
-      "bad915fd-f1b0-44f5-8fcf-8d1c33cbafd0",
-      "BMS Read Voltage"
-    ],
-    [
-      "6d074958-b8d9-4950-88c6-86ab001483bb",
-      "USB-C PD 3.1 Sink"
-    ],
-    [
-      "ef7d56b8-7bc1-4b50-a350-04b57fde7209",
-      "USB-C PD 3.0 Source"
-    ],
-    [
-      "4e2cfc12-ee40-4d17-9d6f-838ea40fdecb",
-      "Power Management System Controller"
-    ],
-    [
-      "3802a177-d38b-464c-9270-4efc10a69d29",
-      "Power Enable 3V3"
-    ],
-    [
-      "142d0f00-a1ef-4c75-851a-23c5e969fe85",
-      "BMS Read Temperature"
-    ],
-    [
-      "45e3737c-87b6-4a0a-9bbf-f87983ecc7f3",
-      "PMSC_MCU"
+      "90a55f0b-8dba-4da8-a9bd-d2e0c1dd6a37",
+      "Fuel Gauge"
     ]
   ],
   "text_variables": {}
