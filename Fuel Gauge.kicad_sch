@@ -3268,6 +3268,17 @@
 		)
 		(uuid "678a121e-e9a3-4e65-9434-a3fbcc3aa938")
 	)
+	(text "from TIDA-00792"
+		(exclude_from_sim no)
+		(at 197.866 129.286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "a62e3819-4cb7-473b-a9bb-2a81bb9a46a4")
+	)
 	(text "***TODO: ~{PRES}***"
 		(exclude_from_sim no)
 		(at 111.76 106.934 0)
