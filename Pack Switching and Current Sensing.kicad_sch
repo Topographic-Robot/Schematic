@@ -2287,16 +2287,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "net name change"
-		(exclude_from_sim no)
-		(at 159.258 122.936 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a81e6f32-028f-4ee8-9b01-14b36b036a71")
-	)
 	(text "Pack Switching \nand \nCurrent Sensing"
 		(exclude_from_sim no)
 		(at 174.752 42.418 0)
@@ -3054,16 +3044,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 120.65) (xy 172.72 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6965f32f-1819-418a-81db-52f26aadeab2")
-	)
-	(wire
-		(pts
 			(xy 107.95 121.92) (xy 116.84 121.92)
 		)
 		(stroke
@@ -3564,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 120.65) (xy 154.94 120.65)
+			(xy 147.32 120.65) (xy 172.72 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3805,73 +3785,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05135035-cedc-4f77-902b-fd619f4cae3c")
-		(property "Reference" "R65"
-			(at 153.924 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 162.814 119.634 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 122.428 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79288bfa-3990-471f-80e2-5e9a750ea565")
-		)
-		(pin "2"
-			(uuid "ce7ad499-6259-48d7-a86f-e41a852332ea")
-		)
-		(instances
-			(project "Project-Star"
-				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "R65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 140.97 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3879,7 +3792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fb0f091-4aa7-4888-a796-d19b900f23d1")
-		(property "Reference" "R46"
+		(property "Reference" "R49"
 			(at 136.144 114.3 90)
 			(effects
 				(font
@@ -3922,6 +3835,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 140.97 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 140.97 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 140.97 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e66da100-1d4e-4542-92ac-f74188bd617a")
 		)
@@ -3931,7 +3871,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "R46")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -3947,7 +3887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13d35f00-b723-4dad-addf-b3a2f8e51d9f")
-		(property "Reference" "Q14"
+		(property "Reference" "Q13"
 			(at 159.512 98.298 90)
 			(effects
 				(font
@@ -3993,6 +3933,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 157.48 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 157.48 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 157.48 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "3dc8ea70-fd47-4f82-97d5-98509bfc6585")
 		)
@@ -4011,7 +3978,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "Q14")
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -4026,7 +3993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e4a1cc3-d481-4d4e-8295-ff92d3125f9f")
-		(property "Reference" "D36"
+		(property "Reference" "D27"
 			(at 180.34 109.474 90)
 			(effects
 				(font
@@ -4089,6 +4056,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 180.34 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 180.34 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 180.34 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1ccb8a78-cfd8-408e-8b33-25f55300b9f6")
 		)
@@ -4098,7 +4092,7 @@
 		(instances
 			(project ""
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "D36")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ec8aa12-5f77-4917-af06-d2ff3b8be862")
-		(property "Reference" "R44"
+		(property "Reference" "R48"
 			(at 119.888 82.804 90)
 			(effects
 				(font
@@ -4156,6 +4150,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 124.46 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 124.46 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 124.46 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce92cd5d-4b5a-45cb-a1c4-fb4b6351c966")
 		)
@@ -4165,7 +4186,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "R44")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -4180,7 +4201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f313f68-0c1e-4219-a5f5-d9304e7de01a")
-		(property "Reference" "R62"
+		(property "Reference" "R51"
 			(at 136.144 119.38 90)
 			(effects
 				(font
@@ -4223,6 +4244,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 140.97 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 140.97 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 140.97 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7b3e025-d753-4c87-87f3-6adad2ca3e48")
 		)
@@ -4232,7 +4280,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "R62")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -4247,7 +4295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2aae8e1b-0e8f-47f3-9ddb-6eb8c6426cb9")
-		(property "Reference" "R57"
+		(property "Reference" "R45"
 			(at 119.634 38.1 90)
 			(effects
 				(font
@@ -4290,6 +4338,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 124.46 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 124.46 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 124.46 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe33ad4d-3334-4747-8dc7-0963ab4eec53")
 		)
@@ -4299,7 +4374,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "R57")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -4315,7 +4390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b15a653-c810-4eda-9260-d9edc99e907f")
-		(property "Reference" "C27"
+		(property "Reference" "C22"
 			(at 199.39 113.792 0)
 			(effects
 				(font
@@ -4360,6 +4435,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bd05ece-0b3d-4a2c-b858-96c0a52cac00")
 		)
@@ -4369,7 +4471,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "C27")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4385,7 +4487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f522ce9-2550-4640-92bc-7976fedec5d3")
-		(property "Reference" "Q12"
+		(property "Reference" "Q11"
 			(at 141.732 42.926 90)
 			(effects
 				(font
@@ -4428,6 +4530,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 138.43 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 138.43 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 138.43 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d3f79cfd-a409-43c7-96b8-eac165674aae")
 		)
@@ -4440,7 +4569,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "Q12")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -4455,7 +4584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41fea30a-15f2-4c50-9f8b-819f8728ef2a")
-		(property "Reference" "D27"
+		(property "Reference" "D23"
 			(at 116.84 113.284 90)
 			(effects
 				(font
@@ -4500,6 +4629,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 116.84 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 116.84 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 116.84 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ff87a6e-7f5d-40f3-8143-c8aa38abe41d")
 		)
@@ -4509,7 +4665,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "D27")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -4571,6 +4727,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 132.08 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 132.08 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 132.08 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "401125bc-282f-42cc-9db7-7fe5825f3759")
 		)
@@ -4604,7 +4787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ac95300-d3c3-410a-a1e8-f8bd230865c3")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR09"
 			(at 127 134.62 0)
 			(effects
 				(font
@@ -4654,7 +4837,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "#PWR013")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4669,7 +4852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74c27f99-c9ed-4aae-a543-b276bc3823c8")
-		(property "Reference" "R45"
+		(property "Reference" "R47"
 			(at 119.634 45.72 90)
 			(effects
 				(font
@@ -4712,6 +4895,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 124.46 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 124.46 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 124.46 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adb1ce8b-268b-4c92-acc6-92a47da106cd")
 		)
@@ -4721,7 +4931,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "R45")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -4736,7 +4946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a34d1d4-647b-4796-8376-e3bc70b70ca8")
-		(property "Reference" "R63"
+		(property "Reference" "R52"
 			(at 136.144 121.92 90)
 			(effects
 				(font
@@ -4779,6 +4989,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 140.97 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 140.97 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 140.97 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed0a1822-6962-40b6-a3dc-e306ff57caa9")
 		)
@@ -4788,7 +5025,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "R63")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -4803,7 +5040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7acc2b58-bc88-4386-a172-b28920748a04")
-		(property "Reference" "D35"
+		(property "Reference" "D25"
 			(at 159.512 75.184 0)
 			(effects
 				(font
@@ -4812,7 +5049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16V"
+		(property "Value" "18V"
 			(at 166.878 75.184 0)
 			(effects
 				(font
@@ -4848,6 +5085,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c49a5c6-ed95-4546-86bc-61f8eedceecc")
 		)
@@ -4857,7 +5121,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "D35")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -4872,7 +5136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c4c9211-19ca-4e3e-9372-b4a11c0566f9")
-		(property "Reference" "R58"
+		(property "Reference" "R44"
 			(at 119.634 34.29 90)
 			(effects
 				(font
@@ -4915,6 +5179,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 124.46 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 124.46 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 124.46 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef418dc8-f168-455e-944b-033853f0078f")
 		)
@@ -4924,7 +5215,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "R58")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -4939,7 +5230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ddd077e-be3b-44bf-9674-34221085be2f")
-		(property "Reference" "C25"
+		(property "Reference" "C20"
 			(at 149.86 109.474 90)
 			(effects
 				(font
@@ -4984,6 +5275,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 151.13 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 151.13 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 151.13 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a28a756-1884-4431-ae61-34a2d12d28bc")
 		)
@@ -4993,7 +5311,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "C25")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -5054,6 +5372,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a980970a-56bb-4932-b42d-0de3c5d0c61e")
 		)
@@ -5078,7 +5423,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8823add8-5826-485f-91ea-8806346ed836")
-		(property "Reference" "R47"
+		(property "Reference" "R50"
 			(at 136.144 116.84 90)
 			(effects
 				(font
@@ -5121,6 +5466,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 140.97 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 140.97 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 140.97 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f79d804d-c25b-4c58-b4e6-eaa18c4d6908")
 		)
@@ -5130,7 +5502,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "R47")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -5145,7 +5517,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "984da062-6839-4288-88ce-535da76d6738")
-		(property "Reference" "D28"
+		(property "Reference" "D26"
 			(at 172.72 113.284 90)
 			(effects
 				(font
@@ -5190,6 +5562,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 172.72 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 172.72 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 172.72 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe3df3d4-331b-4306-9cf3-914abea45584")
 		)
@@ -5199,7 +5598,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "D28")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -5260,6 +5659,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34dfb1c6-c549-498f-82b2-2eeb9bec321b")
 		)
@@ -5284,7 +5710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cad0447-d2a0-47a5-817a-97294e2ca707")
-		(property "Reference" "Q11"
+		(property "Reference" "Q10"
 			(at 134.112 98.298 90)
 			(effects
 				(font
@@ -5330,6 +5756,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 132.08 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 132.08 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 132.08 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "c27c22ea-bcc2-428f-8856-9eb5501b0641")
 		)
@@ -5348,7 +5801,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "Q11")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -5408,6 +5861,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "497b644d-a745-42c4-a7ec-d9cc7cf66ce2")
 		)
@@ -5432,7 +5912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aaafbc8b-cdc3-4815-a7bb-fe18363701a8")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR08"
 			(at 116.84 118.11 0)
 			(effects
 				(font
@@ -5482,7 +5962,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "#PWR012")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5497,7 +5977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aebf3861-1836-4b86-89be-1cc591bdea40")
-		(property "Reference" "C24"
+		(property "Reference" "C19"
 			(at 138.43 109.474 90)
 			(effects
 				(font
@@ -5542,6 +6022,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 139.7 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 139.7 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 139.7 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9420f487-e93d-4206-95d2-2a318876c7be")
 		)
@@ -5551,7 +6058,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "C24")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5566,7 +6073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5ee725e-48c1-4b29-aa02-7906df0b5ee9")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG03"
 			(at 128.905 127 0)
 			(effects
 				(font
@@ -5617,7 +6124,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "#FLG06")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5632,7 +6139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b91e0f26-7075-49fb-8212-1c1db4faee23")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG02"
 			(at 107.95 123.825 0)
 			(effects
 				(font
@@ -5683,7 +6190,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "#FLG05")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -5698,7 +6205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9742d80-9a15-4630-9a97-8ff618a39f64")
-		(property "Reference" "R56"
+		(property "Reference" "R46"
 			(at 119.634 41.91 90)
 			(effects
 				(font
@@ -5741,6 +6248,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 124.46 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 124.46 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 124.46 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2817f5e6-56d1-4d95-99e8-74289c6503d5")
 		)
@@ -5750,7 +6284,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "R56")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -5766,7 +6300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8ee7d4e-df36-4447-a347-870d9bccc87c")
-		(property "Reference" "R64"
+		(property "Reference" "R53"
 			(at 148.082 37.084 0)
 			(effects
 				(font
@@ -5809,6 +6343,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 146.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 146.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 146.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0637860-5a30-49ad-b6be-cdee90fc75a7")
 		)
@@ -5818,7 +6379,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "R64")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -5879,6 +6440,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 127 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 127 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 127 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2f5d3d3-ee67-499b-a98d-f42d60895314")
 		)
@@ -5904,7 +6492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df7e963b-87b3-4138-a8af-cebb2e4b04cb")
-		(property "Reference" "C26"
+		(property "Reference" "C21"
 			(at 199.39 106.172 0)
 			(effects
 				(font
@@ -5949,6 +6537,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f1333bd-d08b-49ee-9165-6b9ab9ae1c91")
 		)
@@ -5958,7 +6573,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "C26")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5974,7 +6589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e85f1e0a-cd9b-4607-835f-8bb90608e71b")
-		(property "Reference" "D34"
+		(property "Reference" "D24"
 			(at 122.936 74.93 0)
 			(effects
 				(font
@@ -5983,7 +6598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16V"
+		(property "Value" "18V"
 			(at 129.54 74.93 0)
 			(effects
 				(font
@@ -6019,6 +6634,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b056ed2e-234f-4a59-9c97-1dcf2bf4dd5b")
 		)
@@ -6028,7 +6670,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "D34")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -6043,7 +6685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8b4b328-27bc-4c99-84b2-0c197e37114b")
-		(property "Reference" "Q13"
+		(property "Reference" "Q12"
 			(at 162.052 56.134 90)
 			(effects
 				(font
@@ -6089,6 +6731,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 157.48 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 157.48 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 157.48 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "525effad-48f8-46d8-9e03-bbf1ecf20e01")
 		)
@@ -6107,7 +6776,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "Q13")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -6167,6 +6836,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 212.09 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 212.09 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 212.09 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f1fc586c-c143-40c2-8114-4f4d9569a6b3")
 		)
@@ -6192,7 +6888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1812ae4-c74c-43a4-aebb-1f0d3fa26994")
-		(property "Reference" "R66"
+		(property "Reference" "R54"
 			(at 160.274 82.804 90)
 			(effects
 				(font
@@ -6235,6 +6931,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 165.1 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 165.1 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 165.1 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30e0c396-6efb-4b15-ba26-108dffe4b960")
 		)
@@ -6244,7 +6967,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/cc0a7e05-dd91-401b-a994-41ee02720f37"
-					(reference "R66")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -6361,6 +7084,33 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
+			(at 132.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 132.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 132.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 132.08 69.85 0)
 			(effects
 				(font

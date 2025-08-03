@@ -1541,19 +1541,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Interrupt for new current \nreadings or errors"
-		(exclude_from_sim no)
-		(at 182.88 81.026 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "044397cf-4998-48b3-bc00-552c984da36b")
-	)
 	(text "Balancing & BMC (AFE)"
 		(exclude_from_sim no)
-		(at 141.732 141.224 0)
+		(at 142.24 142.494 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -1585,7 +1575,7 @@
 	)
 	(text "system is on LED"
 		(exclude_from_sim no)
-		(at 184.404 89.408 0)
+		(at 183.388 88.138 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1605,7 +1595,7 @@
 		(uuid "621dced7-958c-424a-a5e0-17f9531edc9e")
 	)
 	(junction
-		(at 171.45 68.58)
+		(at 165.1 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fb8e8af-73ef-4f2a-85d2-c32632df10a9")
@@ -1617,7 +1607,7 @@
 		(uuid "1d50e373-888e-451e-9f36-3343a729b569")
 	)
 	(junction
-		(at 171.45 73.66)
+		(at 165.1 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32da61a4-8f0a-46fd-bb13-d92f82cf9376")
@@ -1647,7 +1637,7 @@
 		(uuid "8affaa4e-0b2f-4871-a6fa-10c0d18214ad")
 	)
 	(junction
-		(at 187.96 71.12)
+		(at 181.61 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1965583-42b4-441d-afa0-31973c21f852")
@@ -1688,7 +1678,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 77.47) (xy 171.45 73.66)
+			(xy 165.1 77.47) (xy 165.1 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1708,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 130.81) (xy 133.35 130.81)
+			(xy 132.08 130.81) (xy 134.62 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1728,7 +1718,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 125.73) (xy 132.08 125.73)
+			(xy 134.62 125.73) (xy 132.08 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1738,7 +1728,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 115.57) (xy 132.08 115.57)
+			(xy 134.62 115.57) (xy 132.08 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1758,7 +1748,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 73.66) (xy 175.26 73.66)
+			(xy 165.1 73.66) (xy 168.91 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1778,7 +1768,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 77.47) (xy 190.5 77.47)
+			(xy 176.53 77.47) (xy 184.15 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1958,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 115.57) (xy 152.4 115.57)
+			(xy 142.24 115.57) (xy 152.4 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1968,7 +1958,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 120.65) (xy 152.4 120.65)
+			(xy 142.24 120.65) (xy 152.4 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1988,13 +1978,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 71.12) (xy 189.23 71.12)
+			(xy 181.61 71.12) (xy 182.88 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5533e6f1-fab3-4dd1-b131-9a1cc2801bfb")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5792daa9-9bc3-4df0-bb1b-e2b6c4473a6f")
 	)
 	(wire
 		(pts
@@ -2098,7 +2098,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 120.65) (xy 132.08 120.65)
+			(xy 134.62 120.65) (xy 132.08 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2128,7 +2128,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 71.12) (xy 187.96 68.58)
+			(xy 181.61 71.12) (xy 181.61 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2138,7 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 187.96 73.66)
+			(xy 176.53 73.66) (xy 181.61 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2148,7 +2148,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 125.73) (xy 152.4 125.73)
+			(xy 142.24 125.73) (xy 152.4 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2158,17 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 68.58) (xy 171.45 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a57d26f0-874a-48b8-9bc7-f6e331307169")
-	)
-	(wire
-		(pts
-			(xy 175.26 68.58) (xy 171.45 68.58)
+			(xy 168.91 68.58) (xy 165.1 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2258,7 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 77.47) (xy 171.45 77.47)
+			(xy 168.91 77.47) (xy 165.1 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2268,7 +2258,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 68.58) (xy 171.45 73.66)
+			(xy 165.1 68.58) (xy 165.1 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2278,7 +2268,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 68.58) (xy 182.88 68.58)
+			(xy 181.61 68.58) (xy 176.53 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2298,7 +2288,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 73.66) (xy 187.96 71.12)
+			(xy 181.61 73.66) (xy 181.61 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2368,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 130.81) (xy 152.4 130.81)
+			(xy 142.24 130.81) (xy 152.4 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2711,7 +2701,7 @@
 		(uuid "b97c91a6-2069-4eef-93a5-14d708bfff93")
 	)
 	(label "ALERT"
-		(at 190.5 77.47 180)
+		(at 184.15 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3117,7 +3107,7 @@
 	)
 	(hierarchical_label "ALERT"
 		(shape output)
-		(at 190.5 77.47 0)
+		(at 184.15 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3178,6 +3168,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02dc3055-20a0-4365-b837-8c32c7459cfa")
 		)
@@ -3195,7 +3212,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 125.73 90)
+		(at 138.43 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3203,7 +3220,7 @@
 		(dnp no)
 		(uuid "1fb3524b-64c1-4b03-b7eb-275e924d4070")
 		(property "Reference" "C13"
-			(at 135.89 124.714 90)
+			(at 137.16 124.714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3229,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 140.97 124.46 90)
+			(at 142.24 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3221,7 +3238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 124.7648 0)
+			(at 142.24 124.7648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +3247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 125.73 0)
+			(at 138.43 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3256,34 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 137.16 125.73 0)
+			(at 138.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 138.43 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 138.43 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 138.43 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,75 +3301,6 @@
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/630f7375-f278-4dbb-a8b3-ba91b4ac5d22"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 137.16 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "291db0d0-49bc-4271-9e95-c31423bb7cdc")
-		(property "Reference" "C14"
-			(at 135.89 129.794 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 141.986 129.794 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 129.8448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22bfb841-f8ce-4833-857c-4afc6e816059")
-		)
-		(pin "2"
-			(uuid "769f533b-6ddb-4656-81d5-1919fca8cfb7")
-		)
-		(instances
-			(project "Project-Star"
-				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/630f7375-f278-4dbb-a8b3-ba91b4ac5d22"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3378,6 +3353,33 @@
 			)
 		)
 		(property "Description" "Lithium battery monitor, 6-10 cells, integrated balancing, I2C interface, TSSOP-30"
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 132.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 132.08 83.82 0)
 			(effects
 				(font
@@ -3569,7 +3571,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 177.8 107.95 90)
 			(effects
 				(font
@@ -3605,6 +3607,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 173.99 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 173.99 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 173.99 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22660fbf-1daa-41df-8f32-e2dc2560855d")
 		)
@@ -3622,7 +3651,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 71.12 90)
+		(at 182.88 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3630,7 +3659,7 @@
 		(dnp no)
 		(uuid "6a273aa0-0ff1-4427-ae52-5a018da894aa")
 		(property "Reference" "#PWR04"
-			(at 195.58 71.12 0)
+			(at 189.23 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3668,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 192.024 71.12 90)
+			(at 185.674 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 71.12 0)
+			(at 182.88 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 71.12 0)
+			(at 182.88 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3695,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 71.12 0)
+			(at 182.88 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3717,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 77.47 90)
+		(at 172.72 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3696,7 +3725,7 @@
 		(dnp no)
 		(uuid "6fdddaa7-fea2-4971-a50a-826fecdf7612")
 		(property "Reference" "R41"
-			(at 174.244 76.2 90)
+			(at 167.894 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3733,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 183.134 76.2 90)
+			(at 176.784 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +3741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 79.248 90)
+			(at 172.72 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3750,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 77.47 0)
+			(at 172.72 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3759,34 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 77.47 0)
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 172.72 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 172.72 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 172.72 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,6 +3861,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 114.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 114.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 114.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e98e0682-3041-40e6-93b4-0d001aa403f1")
 		)
@@ -3815,6 +3898,102 @@
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/630f7375-f278-4dbb-a8b3-ba91b4ac5d22"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84204478-deca-40a2-b2c9-cfadfabb9b31")
+		(property "Reference" "C14"
+			(at 137.16 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 143.51 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 129.8448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 138.43 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 138.43 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 138.43 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db4ca855-f238-45c9-a66e-e503eb726a69")
+		)
+		(pin "2"
+			(uuid "6230426f-cfc3-41e1-8826-809211df04d2")
+		)
+		(instances
+			(project "Project-Star"
+				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/630f7375-f278-4dbb-a8b3-ba91b4ac5d22"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3872,6 +4051,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 182.88 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 182.88 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 182.88 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9935f7cf-bcff-4954-b18d-5c1f6d903627")
 		)
@@ -3889,7 +4095,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 68.58 90)
+		(at 172.72 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3897,7 +4103,7 @@
 		(dnp no)
 		(uuid "a9158d5f-b9eb-405e-b349-643f87b2bb24")
 		(property "Reference" "C15"
-			(at 177.8 67.564 90)
+			(at 171.45 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,8 +4111,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "370p"
-			(at 185.166 67.31 90)
+		(property "Value" "470p"
+			(at 178.816 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +4121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 67.6148 0)
+			(at 176.53 67.6148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +4130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 68.58 0)
+			(at 172.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +4139,34 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 68.58 0)
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 172.72 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 172.72 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 172.72 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,6 +4307,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90fe4eaf-1499-4a7f-9002-aaaebbe29528")
 		)
@@ -4141,6 +4401,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 182.88 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 182.88 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 182.88 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1d597e4-506f-4ade-a7b2-f651ae7ce030")
 		)
@@ -4158,7 +4445,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 120.65 90)
+		(at 138.43 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4166,7 +4453,7 @@
 		(dnp no)
 		(uuid "eb953d41-bcbf-45de-8291-d9cef0e652eb")
 		(property "Reference" "C12"
-			(at 135.89 119.634 90)
+			(at 137.16 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4462,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 142.24 119.38 90)
+			(at 143.51 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4471,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 119.6848 0)
+			(at 142.24 119.6848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4480,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 120.65 0)
+			(at 138.43 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4489,34 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 137.16 120.65 0)
+			(at 138.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 138.43 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 138.43 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 138.43 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +4541,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 115.57 90)
+		(at 138.43 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4235,7 +4549,7 @@
 		(dnp no)
 		(uuid "f009eb8c-943c-4ff2-ab2d-215b352b2cd5")
 		(property "Reference" "C11"
-			(at 135.89 114.554 90)
+			(at 137.16 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4558,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 140.97 114.554 90)
+			(at 142.24 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 114.6048 0)
+			(at 142.24 114.6048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 115.57 0)
+			(at 138.43 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4585,34 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 137.16 115.57 0)
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 138.43 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 138.43 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 138.43 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,6 +4687,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 120.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 120.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 120.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78ce0ae5-02a2-4f2e-bad8-a339e0d5a435")
 		)
@@ -4363,7 +4731,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 73.66 90)
+		(at 172.72 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4371,7 +4739,7 @@
 		(dnp no)
 		(uuid "f7773c30-8a73-40ad-8b3b-45d2a820c105")
 		(property "Reference" "R40"
-			(at 174.244 72.39 90)
+			(at 167.894 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4747,7 @@
 			)
 		)
 		(property "Value" "510k"
-			(at 184.15 72.39 90)
+			(at 177.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 75.438 90)
+			(at 172.72 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 73.66 0)
+			(at 172.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4773,34 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 73.66 0)
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 172.72 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 172.72 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 172.72 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)

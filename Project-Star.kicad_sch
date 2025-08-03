@@ -145,6 +145,177 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_4ms_Connector:Conn_01x09"
 			(pin_names
 				(offset 1.016)
@@ -789,10 +960,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "   Add: USB-C PD 3.1 Sink\n   Add: USB-C PD 3.0 Source\n * Add: USB-C Flashing\n** Add: 6V High Current Rails\n   Add: A lot more Caps\n\n\n * Will need to support with a jumper flashing ALL MCUs\n** Will need to find how much current for the rails\n** Will need to determine how many rails"
+	(text_box "   Add: USB-C PD 3.1 Sink\n   Add: USB-C PD 3.0 Source\n** Add: 6V High Current Rails\n   Add: Test Points"
 		(exclude_from_sim no)
-		(at 224.79 39.37 0)
-		(size 59.69 21.59)
+		(at 81.28 63.5 0)
+		(size 33.02 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -810,30 +981,9 @@
 		)
 		(uuid "c5080c47-9f39-42b3-be31-01e9faac5d7e")
 	)
-	(text_box "Check purpose of each 0Ω resistor\n\nConfirm routing and destination make sense\n\nVerify power and signal paths are correctly connected\n\nCross-check against PCB layout\n\nAdd comments or labels where needed\n\nLeave useful ones for testing or debug flexibility"
-		(exclude_from_sim no)
-		(at 220.98 12.7 0)
-		(size 63.5 25.4)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 254 255 85 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d76faccc-f317-4082-afaa-0fc3c7cd79f1")
-	)
 	(wire
 		(pts
-			(xy 90.17 119.38) (xy 100.33 119.38)
+			(xy 90.17 106.68) (xy 101.6 106.68)
 		)
 		(stroke
 			(width 0)
@@ -860,6 +1010,26 @@
 			(type default)
 		)
 		(uuid "2dbf1538-b41b-4471-9a27-45fecb424e07")
+	)
+	(wire
+		(pts
+			(xy 92.71 88.9) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e20be64-8c31-4f86-a92c-334648182d28")
+	)
+	(wire
+		(pts
+			(xy 90.17 86.36) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bdb0f7-1e42-42a9-bc0f-fd7a1e108312")
 	)
 	(wire
 		(pts
@@ -893,23 +1063,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 121.92) (xy 100.33 121.92)
+			(xy 90.17 111.76) (xy 101.6 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "76b30d1d-ba6e-4f68-801a-ae6416a2e593")
-	)
-	(wire
-		(pts
-			(xy 107.95 123.19) (xy 100.33 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "915241ae-3030-4999-999a-25f064c0c6b5")
 	)
 	(wire
 		(pts
@@ -923,13 +1083,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 121.92) (xy 100.33 123.19)
+			(xy 90.17 83.82) (xy 101.6 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c009a694-f062-4ffb-a0c1-f053d5cb5a07")
+		(uuid "ba77e3e5-920a-4655-aee8-bedf1e6fcaf3")
 	)
 	(wire
 		(pts
@@ -981,26 +1141,6 @@
 		)
 		(uuid "e2c66ba9-0e4d-45fd-9c05-d055acbfa42c")
 	)
-	(wire
-		(pts
-			(xy 107.95 118.11) (xy 100.33 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef44df26-3102-4f98-a5cf-b481955d132c")
-	)
-	(wire
-		(pts
-			(xy 100.33 118.11) (xy 100.33 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3af2680-6910-498c-bc71-4aca20d3ce09")
-	)
 	(label "C1"
 		(at 50.8 97.79 180)
 		(effects
@@ -1033,7 +1173,7 @@
 		(uuid "12bf5d61-fba2-440b-ae7b-32fc8f53b58c")
 	)
 	(label "PACK-"
-		(at 100.33 123.19 0)
+		(at 93.98 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1055,7 +1195,7 @@
 		(uuid "1f84911d-eb78-4e90-942c-073f846b9b2f")
 	)
 	(label "PACK+"
-		(at 100.33 118.11 0)
+		(at 93.98 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1074,6 +1214,16 @@
 			(justify right bottom)
 		)
 		(uuid "39fef70f-5c07-437c-944a-e0f4d90c6e97")
+	)
+	(label "SMBC"
+		(at 92.71 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "423eed02-1cfe-4d66-8e58-7d128d7b46fc")
 	)
 	(label "C4"
 		(at 50.8 90.17 180)
@@ -1094,6 +1244,26 @@
 			(justify right bottom)
 		)
 		(uuid "6cd1a65c-460e-4b72-b8bf-6885d9ed85e5")
+	)
+	(label "PACK-"
+		(at 92.71 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83654dbf-4b04-4ff2-b7dc-06fbf6e2ec23")
+	)
+	(label "SMBD"
+		(at 92.71 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88e2ec26-cc70-4806-85d9-ddc76f8e678d")
 	)
 	(label "C5"
 		(at 50.8 87.63 180)
@@ -1137,7 +1307,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 123.19 123.19 0)
+		(at 116.84 111.76 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1145,8 +1315,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bbe9db5-01ed-4b8b-8cfc-97b3fd104734")
-		(property "Reference" "J4"
-			(at 123.444 120.904 0)
+		(property "Reference" "J6"
+			(at 117.094 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,7 +1324,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 123.19 119.38 0)
+			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +1333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 123.19 0)
+			(at 116.84 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,7 +1342,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 123.19 0)
+			(at 116.84 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,7 +1351,34 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 123.19 123.19 0)
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 116.84 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +1392,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -1254,6 +1451,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 29.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 29.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 29.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fda8e1cb-93ce-46a5-a92a-114c4837c2df")
 		)
@@ -1268,7 +1492,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 123.19 118.11 0)
+		(at 116.84 106.68 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1276,8 +1500,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46fa3f4e-e936-4110-b364-65ef4602a80c")
-		(property "Reference" "J3"
-			(at 123.444 115.824 0)
+		(property "Reference" "J5"
+			(at 117.094 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,7 +1509,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 123.19 114.3 0)
+			(at 116.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,7 +1518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 118.11 0)
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,7 +1527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 118.11 0)
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1312,7 +1536,34 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 123.19 118.11 0)
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +1577,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1334,7 +1585,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPST")
-		(at 113.03 120.65 0)
+		(at 106.68 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1343,7 +1594,7 @@
 		(dnp no)
 		(uuid "63ea6c6c-3895-4f2e-b46a-126d650defba")
 		(property "Reference" "SW2"
-			(at 113.03 115.316 0)
+			(at 106.68 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1602,7 @@
 			)
 		)
 		(property "Value" "SW_DPST"
-			(at 113.03 125.73 0)
+			(at 106.68 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 120.65 0)
+			(at 106.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 120.65 0)
+			(at 106.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1629,34 @@
 			)
 		)
 		(property "Description" "Double Pole Single Throw (DPST) Switch"
-			(at 113.03 120.65 0)
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 106.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64c5aac5-3e5d-4a29-85c5-22c3fb488716")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 35.814 100.838 90)
 			(effects
 				(font
@@ -1489,6 +1767,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 38.1 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 38.1 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 38.1 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "2916ea65-0d8a-4a1b-9162-bbe57cb085b2")
 		)
@@ -1519,7 +1824,106 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b"
-					(reference "J5")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 106.68 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fe37e2d-101a-4ece-b36c-a87bc1fa3a92")
+		(property "Reference" "J4"
+			(at 105.664 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMB"
+			(at 104.902 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00f639de-96e0-43ed-acb5-4337f23c54b3")
+		)
+		(pin "3"
+			(uuid "34a61877-c71c-4166-9991-004d96e2dd76")
+		)
+		(pin "2"
+			(uuid "990db4f7-3358-4eac-a6c5-1f2a49d01111")
+		)
+		(instances
+			(project ""
+				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1570,6 +1974,33 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 29.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 29.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 29.21 106.68 0)
 			(effects
 				(font
@@ -1643,6 +2074,33 @@
 				(hide yes)
 			)
 		)
+		(property "Display" ""
+			(at 39.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 39.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 39.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4c493dde-8c7a-479b-973c-1a55c70413c2")
 		)
@@ -1666,7 +2124,7 @@
 	)
 	(sheet
 		(at 54.61 77.47)
-		(size 35.56 46.99)
+		(size 35.56 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1689,7 +2147,7 @@
 			)
 		)
 		(property "Sheetfile" "BMS Protection Board.kicad_sch"
-			(at 54.61 124.714 0)
+			(at 54.61 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,8 +2155,8 @@
 				(justify left top)
 			)
 		)
-		(pin "PACK-" bidirectional
-			(at 90.17 121.92 0)
+		(pin "PACK-" output
+			(at 90.17 111.76 0)
 			(uuid "f44870eb-858b-4b7b-bc2e-c2a9197bfdf2")
 			(effects
 				(font
@@ -1707,8 +2165,8 @@
 				(justify right)
 			)
 		)
-		(pin "PACK+" bidirectional
-			(at 90.17 119.38 0)
+		(pin "PACK+" output
+			(at 90.17 106.68 0)
 			(uuid "a009b774-4142-4b56-859a-a37747a693fd")
 			(effects
 				(font
@@ -1827,18 +2285,8 @@
 				(justify left)
 			)
 		)
-		(pin "WAKE" input
-			(at 90.17 95.25 0)
-			(uuid "f8a3c5f1-9eed-410b-9bf3-f423d02ddfb0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SMBC" output
-			(at 90.17 86.36 0)
+			(at 90.17 83.82 0)
 			(uuid "474f683e-a7f5-4b14-a5d5-013d844856b1")
 			(effects
 				(font
@@ -1848,7 +2296,7 @@
 			)
 		)
 		(pin "SMBD" output
-			(at 90.17 83.82 0)
+			(at 90.17 86.36 0)
 			(uuid "023c3e0c-46e0-4ef0-b5f9-ebb58c494335")
 			(effects
 				(font
