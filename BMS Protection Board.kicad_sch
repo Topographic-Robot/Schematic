@@ -1800,7 +1800,7 @@
 		(uuid "41763438-16af-418b-9892-abf987a684de")
 	)
 	(hierarchical_label "PACK-"
-		(shape input)
+		(shape bidirectional)
 		(at 27.94 88.9 180)
 		(effects
 			(font
@@ -2660,7 +2660,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114"
-					(page "10")
+					(page "9")
 				)
 			)
 		)
@@ -2832,7 +2832,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114"
-					(page "12")
+					(page "11")
 				)
 			)
 		)
@@ -3128,7 +3128,7 @@
 		(instances
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114"
-					(page "11")
+					(page "10")
 				)
 			)
 		)

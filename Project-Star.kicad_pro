@@ -794,6 +794,38 @@
     [
       "90a55f0b-8dba-4da8-a9bd-d2e0c1dd6a37",
       "Fuel Gauge"
+    ],
+    [
+      "ec72a35b-e7f2-4422-8859-60e9fb848154",
+      "USB-C Power Delivery"
+    ],
+    [
+      "f6f5f8c2-3fe5-486c-93b1-10011acff681",
+      "USB-C Port"
+    ],
+    [
+      "b3612068-8c8c-481f-99d3-d6528c245904",
+      "USB-C PD Controller"
+    ],
+    [
+      "c75e3b3c-5e7c-48a1-b9c1-6d22fff06a0f",
+      "USB-C EEPROM"
+    ],
+    [
+      "020614fe-6171-4ea0-a28e-58c67e69c732",
+      "USB-C 3V3 LDO"
+    ],
+    [
+      "6f9fe965-58a5-4a06-b6b6-8090ff5dc05f",
+      "Buck-Boost Charger"
+    ],
+    [
+      "e37625a4-4166-4d08-b145-52540d65bd12",
+      "USB-C 5V Buck"
+    ],
+    [
+      "9fb42b36-af5a-430a-ae71-09fe6d8fbe9c",
+      "Charger FET Array"
     ]
   ],
   "text_variables": {}

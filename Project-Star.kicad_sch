@@ -960,10 +960,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "   Add: USB-C PD 3.1 Sink\n   Add: USB-C PD 3.0 Source\n** Add: 6V High Current Rails\n   Add: Test Points"
+	(text_box "Add: 6V High Current Rails\nAdd: Test Points"
 		(exclude_from_sim no)
-		(at 81.28 63.5 0)
-		(size 33.02 10.16)
+		(at 102.87 68.58 0)
+		(size 29.21 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -981,9 +981,15 @@
 		)
 		(uuid "c5080c47-9f39-42b3-be31-01e9faac5d7e")
 	)
+	(junction
+		(at 91.44 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "763ab8b0-7789-4268-b9eb-b1ccbe5472a9")
+	)
 	(wire
 		(pts
-			(xy 90.17 106.68) (xy 101.6 106.68)
+			(xy 90.17 106.68) (xy 91.44 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1043,6 +1049,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 100.33) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c04a8d-5c10-4757-a202-feeac82c7fd5")
+	)
+	(wire
+		(pts
 			(xy 43.18 92.71) (xy 54.61 92.71)
 		)
 		(stroke
@@ -1093,6 +1109,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 100.33) (xy 91.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c514405c-1a1d-4345-bc20-992278ad5079")
+	)
+	(wire
+		(pts
 			(xy 43.18 97.79) (xy 54.61 97.79)
 		)
 		(stroke
@@ -1140,6 +1166,16 @@
 			(type default)
 		)
 		(uuid "e2c66ba9-0e4d-45fd-9c05-d055acbfa42c")
+	)
+	(wire
+		(pts
+			(xy 91.44 106.68) (xy 101.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8be2de0-5b17-4812-9f29-838c9d31a357")
 	)
 	(label "C1"
 		(at 50.8 97.79 180)
@@ -2155,7 +2191,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PACK-" output
+		(pin "PACK-" bidirectional
 			(at 90.17 111.76 0)
 			(uuid "f44870eb-858b-4b7b-bc2e-c2a9197bfdf2")
 			(effects
@@ -2165,7 +2201,7 @@
 				(justify right)
 			)
 		)
-		(pin "PACK+" output
+		(pin "PACK+" bidirectional
 			(at 90.17 106.68 0)
 			(uuid "a009b774-4142-4b56-859a-a37747a693fd")
 			(effects
@@ -2309,6 +2345,58 @@
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 77.47)
+		(size 36.83 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec72a35b-e7f2-4422-8859-60e9fb848154")
+		(property "Sheetname" "USB-C Power Delivery"
+			(at 137.16 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C Power Delivery.kicad_sch"
+			(at 137.16 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PACK+" bidirectional
+			(at 137.16 100.33 180)
+			(uuid "ed58d272-c577-45c7-afef-877297acc214")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Project-Star"
+				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b"
+					(page "12")
 				)
 			)
 		)

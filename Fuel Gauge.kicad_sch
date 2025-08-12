@@ -2578,6 +2578,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Fuel Gauge"
+		(exclude_from_sim no)
+		(at 152.654 49.784 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "002e1000-71f6-41ac-9284-8650b88f4a95")
+	)
 	(text "from TIDA-00792"
 		(exclude_from_sim no)
 		(at 197.358 138.43 0)
