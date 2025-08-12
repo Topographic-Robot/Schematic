@@ -698,6 +698,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "The VBUS is for dead battery scenarios"
+		(exclude_from_sim no)
+		(at 91.948 100.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29dc78e2-e362-4963-a6cd-1f312008e187")
+	)
+	(text "This is 150mA 3V3"
+		(exclude_from_sim no)
+		(at 135.382 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dfc80ed0-1d9a-40f6-b2f5-e1411c3a555a")
+	)
 	(junction
 		(at 119.38 110.49)
 		(diameter 0)

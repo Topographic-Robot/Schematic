@@ -3196,7 +3196,7 @@
 		(uuid "6698d216-fd93-4a4e-9b7d-7b3909cae134")
 	)
 	(hierarchical_label "VBUS"
-		(shape input)
+		(shape bidirectional)
 		(at 223.52 118.11 0)
 		(effects
 			(font

@@ -281,178 +281,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_4ms_Connector:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "4ms_Connector:Pins_1x02_2.54mm_TH"
-				(at -0.635 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "HEADER 1x2 MALE PINS 0.100” 180deg"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
-				(at -2.54 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TAD"
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "1-0201FBV0T"
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Conn_01x02"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_??x*mm* Connector*:*1x??x*mm* Pin?Header?Straight?1X* Pin?Header?Angled?1X* Socket?Strip?Straight?1X* Socket?Strip?Angled?1X*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -567,59 +395,15 @@
 		)
 		(uuid "ef6c17eb-f787-4e51-99a3-81a8147b4d7e")
 	)
-	(junction
-		(at 156.21 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23f72ad0-4dd7-426f-87d7-cb5d260a2c9d")
-	)
-	(junction
-		(at 156.21 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "266f29ff-cd09-4ba7-84a8-751643cc0f1b")
-	)
-	(junction
-		(at 134.62 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b37c89c7-74d0-475d-b77f-caa67fec8d83")
-	)
-	(junction
-		(at 134.62 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf8f804c-a400-495b-914e-1a97eadc5ce4")
-	)
 	(wire
 		(pts
-			(xy 165.1 92.71) (xy 165.1 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1966146e-c88a-4157-b935-508ddec8c726")
-	)
-	(wire
-		(pts
-			(xy 156.21 85.09) (xy 156.21 86.36)
+			(xy 144.78 82.55) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2b17e6ca-2ae4-463b-b6fd-7cb667bc48d3")
-	)
-	(wire
-		(pts
-			(xy 134.62 97.79) (xy 143.51 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31283194-5c3d-4c2d-ad1a-bfde984d26ea")
 	)
 	(wire
 		(pts
@@ -633,26 +417,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 90.17) (xy 143.51 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3925dcbf-27f1-4d7d-84f9-cab76ebb7183")
-	)
-	(wire
-		(pts
-			(xy 134.62 97.79) (xy 134.62 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42708294-ed3e-41be-ace7-6bde951f26b0")
-	)
-	(wire
-		(pts
 			(xy 128.27 82.55) (xy 128.27 87.63)
 		)
 		(stroke
@@ -663,23 +427,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 99.06) (xy 134.62 97.79)
+			(xy 134.62 96.52) (xy 134.62 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b931d6e-7b5b-4360-92e8-b9258c4247b5")
-	)
-	(wire
-		(pts
-			(xy 156.21 85.09) (xy 165.1 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75ce4bf8-5c56-4ef1-9710-cd00b5fc4fb8")
 	)
 	(wire
 		(pts
@@ -693,43 +447,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 97.79) (xy 156.21 101.6)
+			(xy 144.78 96.52) (xy 144.78 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7d5b026c-9a6b-44f1-9f74-de25a9ccb0dd")
-	)
-	(wire
-		(pts
-			(xy 165.1 92.71) (xy 166.37 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "844257e6-1e63-4f99-8c85-4bd241574b6a")
-	)
-	(wire
-		(pts
-			(xy 156.21 96.52) (xy 156.21 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86667d33-f784-46bf-a097-07ca598e4820")
-	)
-	(wire
-		(pts
-			(xy 144.78 90.17) (xy 143.51 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88b321b2-92d0-4f47-8f05-e0d0edb6c932")
 	)
 	(wire
 		(pts
@@ -743,83 +467,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 85.09) (xy 134.62 86.36)
+			(xy 134.62 82.55) (xy 134.62 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9eb66633-6056-4474-bcc2-8758a15fd2aa")
-	)
-	(wire
-		(pts
-			(xy 166.37 90.17) (xy 165.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acca1b73-599d-4be9-89aa-5bccabee2ed0")
-	)
-	(wire
-		(pts
-			(xy 165.1 90.17) (xy 165.1 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba8b999e-37ab-405f-bf82-d4f771cfaa57")
-	)
-	(wire
-		(pts
-			(xy 143.51 92.71) (xy 144.78 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bddc9641-7803-4d9f-a581-27a65094ba1e")
-	)
-	(wire
-		(pts
-			(xy 134.62 85.09) (xy 143.51 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32411f4-094e-46fd-94c1-777da416c737")
-	)
-	(wire
-		(pts
-			(xy 156.21 82.55) (xy 156.21 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1f8ccf-6617-4e15-a176-9085609340b4")
-	)
-	(wire
-		(pts
-			(xy 134.62 82.55) (xy 134.62 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd5b4657-77c5-4e82-9d78-90213823bb72")
-	)
-	(wire
-		(pts
-			(xy 156.21 97.79) (xy 165.1 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cda3ad2b-76c4-452c-aed5-af838588b2c1")
 	)
 	(wire
 		(pts
@@ -830,16 +484,6 @@
 			(type default)
 		)
 		(uuid "d9bf4c1e-7012-4f8d-8593-4ca1b028d0f1")
-	)
-	(wire
-		(pts
-			(xy 143.51 92.71) (xy 143.51 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df343a78-3f53-403c-9686-92cea3f29a08")
 	)
 	(wire
 		(pts
@@ -882,7 +526,7 @@
 		(uuid "631c17fb-787c-4696-a9ac-2733d27503e3")
 	)
 	(label "VCX5"
-		(at 156.21 101.6 90)
+		(at 144.78 101.6 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -892,7 +536,7 @@
 		(uuid "6cf6a67c-6d3f-44bc-b9d3-3da07f006062")
 	)
 	(label "TS2"
-		(at 156.21 82.55 270)
+		(at 144.78 82.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1062,7 +706,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor")
-		(at 156.21 91.44 0)
+		(at 144.78 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1070,7 +714,7 @@
 		(dnp no)
 		(uuid "416021bb-ae62-47fe-b19f-06fd4ae5206e")
 		(property "Reference" "TH2"
-			(at 156.21 87.884 0)
+			(at 144.78 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,7 +723,7 @@
 			)
 		)
 		(property "Value" "10k NTC"
-			(at 156.718 95.758 0)
+			(at 145.288 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 91.44 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +741,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 91.44 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +750,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor"
-			(at 156.21 91.44 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +759,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 156.21 91.44 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +768,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 156.21 91.44 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +777,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 156.21 91.44 0)
+			(at 144.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,132 +795,6 @@
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/6b10105f-d41f-4638-b42b-c651baa60ee4"
 					(reference "TH2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Connector:Conn_01x02")
-		(at 171.45 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6298fec8-a585-4a6b-80be-6b68e985efe5")
-		(property "Reference" "J8"
-			(at 170.434 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "J_TH2"
-			(at 168.91 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "4ms_Connector:Pins_1x02_2.54mm_TH"
-			(at 170.815 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "HEADER 1x2 MALE PINS 0.100” 180deg"
-			(at 171.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
-			(at 168.91 98.044 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TAD"
-			(at 168.91 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "1-0201FBV0T"
-			(at 168.91 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" ""
-			(at 171.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 171.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 171.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e4261f7-606d-4451-a20d-b99a3889e483")
-		)
-		(pin "2"
-			(uuid "05ce9ef3-826b-48bc-8e22-fedaf8b7ed56")
-		)
-		(instances
-			(project "Project-Star"
-				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/6b10105f-d41f-4638-b42b-c651baa60ee4"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1601,132 +1119,6 @@
 			(project "Project-Star"
 				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/6b10105f-d41f-4638-b42b-c651baa60ee4"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Connector:Conn_01x02")
-		(at 149.86 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd9e6550-69ec-43cf-8b74-c9fc63017bc5")
-		(property "Reference" "J7"
-			(at 148.844 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "J_TH1"
-			(at 147.32 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "4ms_Connector:Pins_1x02_2.54mm_TH"
-			(at 149.225 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "HEADER 1x2 MALE PINS 0.100” 180deg"
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
-			(at 147.32 98.044 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TAD"
-			(at 147.32 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "1-0201FBV0T"
-			(at 147.32 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de8a0249-f462-4956-9c5e-74a13bc581b9")
-		)
-		(pin "2"
-			(uuid "b5cbc2e8-92de-4b4d-a6af-e4a5550df00c")
-		)
-		(instances
-			(project "Project-Star"
-				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b/e8da5d81-614b-4fe5-84b3-4c351fab7114/6b10105f-d41f-4638-b42b-c651baa60ee4"
-					(reference "J7")
 					(unit 1)
 				)
 			)

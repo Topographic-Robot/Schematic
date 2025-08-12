@@ -1103,6 +1103,16 @@
 		)
 		(uuid "6bd4f176-0977-4676-b9fd-a33fba5208ac")
 	)
+	(text "we need to find what to put \nfor this based off what we can buy"
+		(exclude_from_sim no)
+		(at 140.97 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77ff62b0-c975-4d0a-8dfc-4d6e941e7707")
+	)
 	(text "Kelvin Sense"
 		(exclude_from_sim no)
 		(at 63.5 118.618 0)
@@ -2598,7 +2608,7 @@
 		(uuid "ffc3f475-ec84-4232-b53f-d75e7ca8f324")
 	)
 	(hierarchical_label "VSYS"
-		(shape passive)
+		(shape output)
 		(at 74.93 80.01 180)
 		(effects
 			(font
@@ -2609,7 +2619,7 @@
 		(uuid "009fd4b9-ead7-4fd2-92de-32a7b3ccbd16")
 	)
 	(hierarchical_label "HIDRV2"
-		(shape passive)
+		(shape output)
 		(at 193.04 93.98 0)
 		(effects
 			(font
@@ -2620,7 +2630,7 @@
 		(uuid "1a13fe32-f2ac-4e56-91be-ef3a19f1f7c4")
 	)
 	(hierarchical_label "LODRV2"
-		(shape passive)
+		(shape output)
 		(at 193.04 114.3 0)
 		(effects
 			(font
@@ -2631,7 +2641,7 @@
 		(uuid "2f341866-1208-41be-bf97-fd76c4ce3783")
 	)
 	(hierarchical_label "ACOV"
-		(shape passive)
+		(shape output)
 		(at 26.67 146.05 180)
 		(effects
 			(font
@@ -2642,7 +2652,7 @@
 		(uuid "510cc72f-0208-4555-b94a-e85b73b2bb40")
 	)
 	(hierarchical_label "ACP"
-		(shape passive)
+		(shape output)
 		(at 48.26 105.41 180)
 		(effects
 			(font
@@ -2653,7 +2663,7 @@
 		(uuid "56da8ba5-878a-4857-bf28-f1cb0de02c05")
 	)
 	(hierarchical_label "P_OUT"
-		(shape passive)
+		(shape output)
 		(at 193.04 80.01 180)
 		(effects
 			(font
@@ -2664,7 +2674,7 @@
 		(uuid "59d2b376-f6a7-4285-80eb-4726fa2feb90")
 	)
 	(hierarchical_label "ACUV"
-		(shape passive)
+		(shape output)
 		(at 26.67 127 180)
 		(effects
 			(font
@@ -2675,7 +2685,7 @@
 		(uuid "5fd2cdad-aa10-4cd2-8162-b675f63db3cb")
 	)
 	(hierarchical_label "SW1"
-		(shape passive)
+		(shape output)
 		(at 95.25 107.95 180)
 		(effects
 			(font
@@ -2686,7 +2696,7 @@
 		(uuid "7a3f855a-d113-4088-a850-5d308883c3ea")
 	)
 	(hierarchical_label "LODRV1"
-		(shape passive)
+		(shape output)
 		(at 86.36 114.3 180)
 		(effects
 			(font
@@ -2697,7 +2707,7 @@
 		(uuid "7cecaac2-b8e9-45ff-8e03-55c8e15c1b91")
 	)
 	(hierarchical_label "HIDRV1"
-		(shape passive)
+		(shape output)
 		(at 86.36 93.98 180)
 		(effects
 			(font
@@ -2719,7 +2729,7 @@
 		(uuid "7ea5c913-4f20-48aa-ac0f-610160a5c9bc")
 	)
 	(hierarchical_label "SW2"
-		(shape passive)
+		(shape output)
 		(at 184.15 107.95 0)
 		(effects
 			(font
@@ -2730,7 +2740,7 @@
 		(uuid "83fc9ec2-3ce2-48ba-bab1-cb3f330a85c1")
 	)
 	(hierarchical_label "SRN"
-		(shape passive)
+		(shape output)
 		(at 234.95 105.41 0)
 		(effects
 			(font
@@ -2741,7 +2751,7 @@
 		(uuid "8c56aeec-2aea-4f96-b2c2-df3c8482c827")
 	)
 	(hierarchical_label "SRP"
-		(shape passive)
+		(shape output)
 		(at 207.01 105.41 180)
 		(effects
 			(font
@@ -2752,7 +2762,7 @@
 		(uuid "91b6a1f2-e5e3-426c-9398-e9dbdd7f1689")
 	)
 	(hierarchical_label "PACK+"
-		(shape passive)
+		(shape bidirectional)
 		(at 234.95 80.01 180)
 		(effects
 			(font
@@ -2763,7 +2773,7 @@
 		(uuid "a7360027-8231-4a46-bbe4-311e9e48ce11")
 	)
 	(hierarchical_label "ACN"
-		(shape passive)
+		(shape output)
 		(at 76.2 105.41 0)
 		(effects
 			(font
@@ -3320,7 +3330,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "???"
 			(at 135.128 106.68 90)
 			(effects
 				(font
