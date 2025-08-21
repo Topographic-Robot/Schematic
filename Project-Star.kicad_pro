@@ -1108,6 +1108,10 @@
     [
       "9fb42b36-af5a-430a-ae71-09fe6d8fbe9c",
       "Charger FET Array"
+    ],
+    [
+      "53d25c64-488e-42c8-9813-e36d5a44adf9",
+      "6V High Power Line"
     ]
   ],
   "text_variables": {}

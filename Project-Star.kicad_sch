@@ -960,10 +960,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Add: 6V High Current Rails\nAdd: Test Points"
+	(text_box "Add: 6V High Current Rails\nAdd: Test Points\nAdd: Connectors like for data/i2c lines"
 		(exclude_from_sim no)
-		(at 102.87 68.58 0)
-		(size 29.21 6.35)
+		(at 92.71 67.31 0)
+		(size 40.64 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -987,6 +987,22 @@
 		(color 0 0 0 0)
 		(uuid "763ab8b0-7789-4268-b9eb-b1ccbe5472a9")
 	)
+	(junction
+		(at 129.54 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f4c732f-5600-4fac-a7b7-b6d567bca363")
+	)
+	(wire
+		(pts
+			(xy 129.54 129.54) (xy 129.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000befe6-255b-460f-adfb-1e8e1082bede")
+	)
 	(wire
 		(pts
 			(xy 90.17 106.68) (xy 91.44 106.68)
@@ -1006,6 +1022,26 @@
 			(type default)
 		)
 		(uuid "0441375c-0145-4660-94bb-57495bde8d06")
+	)
+	(wire
+		(pts
+			(xy 128.27 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b45057d-80d0-403a-b0aa-8e45dd2fea37")
+	)
+	(wire
+		(pts
+			(xy 137.16 129.54) (xy 129.54 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f28a969-da5f-4a0f-8826-0d23dfc641f8")
 	)
 	(wire
 		(pts
@@ -1049,7 +1085,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 100.33) (xy 137.16 100.33)
+			(xy 91.44 100.33) (xy 129.54 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1089,6 +1125,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 100.33) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc2d556-3404-4236-a090-1634ea36dd98")
+	)
+	(wire
+		(pts
 			(xy 43.18 90.17) (xy 54.61 90.17)
 		)
 		(stroke
@@ -1106,6 +1152,16 @@
 			(type default)
 		)
 		(uuid "ba77e3e5-920a-4655-aee8-bedf1e6fcaf3")
+	)
+	(wire
+		(pts
+			(xy 128.27 86.36) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9f5e97-3eac-46eb-92e0-49cd1fa074a3")
 	)
 	(wire
 		(pts
@@ -1136,6 +1192,16 @@
 			(type default)
 		)
 		(uuid "c844906e-11c5-4ace-bb43-23f2580319c1")
+	)
+	(wire
+		(pts
+			(xy 128.27 83.82) (xy 137.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef0a02e-9b4c-4eff-a7b4-aacd68de2e30")
 	)
 	(wire
 		(pts
@@ -1241,6 +1307,16 @@
 		)
 		(uuid "25aebd06-4d38-4a37-bf0f-6f0725c44f76")
 	)
+	(label "LDO_3V3"
+		(at 128.27 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38850a7c-5885-48c0-8cfc-9cfb3892d650")
+	)
 	(label "C3"
 		(at 50.8 92.71 180)
 		(effects
@@ -1281,6 +1357,16 @@
 		)
 		(uuid "6cd1a65c-460e-4b72-b8bf-6885d9ed85e5")
 	)
+	(label "SCL"
+		(at 128.27 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "743be691-8be5-404c-8df0-863c51ebc983")
+	)
 	(label "PACK-"
 		(at 92.71 88.9 0)
 		(effects
@@ -1290,6 +1376,16 @@
 			(justify left bottom)
 		)
 		(uuid "83654dbf-4b04-4ff2-b7dc-06fbf6e2ec23")
+	)
+	(label "SDA"
+		(at 128.27 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84d911dd-46cd-4fd6-aa53-c84a865af9ff")
 	)
 	(label "SMBD"
 		(at 92.71 86.36 0)
@@ -2158,6 +2254,158 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 123.19 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb01f3c3-e04f-4919-8cef-917746e10daa")
+		(property "Reference" "J7"
+			(at 124.206 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "I2C"
+			(at 124.968 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 123.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 123.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 123.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 123.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9054f9e4-a2cc-46d5-b5d9-0f5d7ab8d2ae")
+		)
+		(pin "3"
+			(uuid "dfe8f6ec-a80f-4997-b77b-e87b7fee0326")
+		)
+		(pin "2"
+			(uuid "967dae46-2c83-4dd5-becd-55e144c1afb7")
+		)
+		(instances
+			(project "Project-Star"
+				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 124.46)
+		(size 36.83 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53d25c64-488e-42c8-9813-e36d5a44adf9")
+		(property "Sheetname" "6V High Power Line"
+			(at 137.16 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "6V High Power Line.kicad_sch"
+			(at 137.16 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PACK+" input
+			(at 137.16 129.54 180)
+			(uuid "cf0cc427-2328-4ffb-a4cb-98075669078b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Project-Star"
+				(path "/fc8533bc-25dd-4c20-9b4c-ffebebd6739b"
+					(page "20")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 54.61 77.47)
 		(size 35.56 38.1)
@@ -2386,6 +2634,36 @@
 		(pin "PACK+" bidirectional
 			(at 137.16 100.33 180)
 			(uuid "ed58d272-c577-45c7-afef-877297acc214")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" output
+			(at 137.16 86.36 180)
+			(uuid "94f9066b-4b19-493e-8c5c-e8302bffc5f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" output
+			(at 137.16 88.9 180)
+			(uuid "7e588095-8754-4098-a2bf-0476680c28d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LDO_3V3" output
+			(at 137.16 83.82 180)
+			(uuid "22e2dbc2-586c-4a0a-a22e-35f8e17209a2")
 			(effects
 				(font
 					(size 1.27 1.27)

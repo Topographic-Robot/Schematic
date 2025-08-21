@@ -1357,12 +1357,6 @@
 		(uuid "65815599-461b-42d0-8339-1b48b43ee261")
 	)
 	(junction
-		(at 80.01 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6de07f2e-f7b7-4eb6-8ba1-b28af872f358")
-	)
-	(junction
 		(at 149.86 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2452,16 +2446,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 80.01) (xy 80.01 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a19cba-c79a-4684-ae44-92484d933833")
-	)
-	(wire
-		(pts
 			(xy 85.09 127) (xy 69.85 127)
 		)
 		(stroke
@@ -3151,17 +3135,6 @@
 		)
 		(uuid "0266dde0-1daf-4f02-b15a-9bfb3fb37a8d")
 	)
-	(hierarchical_label "LDO_1V5"
-		(shape output)
-		(at 76.2 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0a02c250-1a5c-462b-afa4-059478a0272c")
-	)
 	(hierarchical_label "C_CC2"
 		(shape output)
 		(at 201.93 100.33 0)
@@ -3251,7 +3224,7 @@
 		(uuid "e7f10011-419c-4877-ab30-686c1645c733")
 	)
 	(hierarchical_label "PPHV"
-		(shape input)
+		(shape bidirectional)
 		(at 99.06 127 180)
 		(effects
 			(font
